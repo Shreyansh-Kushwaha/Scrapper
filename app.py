@@ -79,5 +79,44 @@ def stream():
                     headers={'Cache-Control': 'no-cache', 'X-Accel-Buffering': 'no'})
 
 
+@app.route('/api/runs')
+def api_runs():
+    runs = []
+    if OUTPUT_BASE.exists():
+        for subject_dir in sorted(OUTPUT_BASE.iterdir()):
+            if not subject_dir.is_dir():
+                continue
+            for year_dir in sorted(subject_dir.iterdir()):
+                if not year_dir.is_dir():
+                    continue
+                qfile = year_dir / 'questions.json'
+                if qfile.exists():
+                    try:
+                        count = len(json.loads(qfile.read_text(encoding='utf-8')))
+                    except Exception:
+                        count = 0
+                    runs.append({
+                        'subject': subject_dir.name,
+                        'year':    year_dir.name,
+                        'count':   count,
+                    })
+    return jsonify(runs)
+
+
+@app.route('/api/questions')
+def api_questions():
+    subject = request.args.get('subject', '')
+    year    = request.args.get('year', '')
+    if not subject or not year:
+        return jsonify([])
+    qfile = OUTPUT_BASE / subject / year / 'questions.json'
+    if not qfile.exists():
+        return jsonify([])
+    try:
+        return jsonify(json.loads(qfile.read_text(encoding='utf-8')))
+    except Exception:
+        return jsonify([])
+
+
 if __name__ == '__main__':
     app.run(debug=True, port=5000, threaded=True)
