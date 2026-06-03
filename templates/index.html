@@ -1,3 +1,197 @@
 <!DOCTYPE html>
-<html lang="en"><head><meta charset="UTF-8"><title>IXL Scraper</title></head>
-<body><h1>IXL Scraper Dashboard</h1></body></html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>IXL Scraper Dashboard</title>
+  <script src="/static/app.js" defer></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: #0f172a; color: #f1f5f9; font-family: system-ui, sans-serif; min-height: 100vh; }
+    header { padding: 16px 32px; border-bottom: 1px solid #1e293b; display: flex; align-items: center; gap: 12px; }
+    header h1 { font-size: 18px; font-weight: 700; }
+    .tabs { display: flex; gap: 4px; padding: 20px 32px 0; }
+    .tab-btn { padding: 10px 20px; border: none; border-radius: 8px 8px 0 0; cursor: pointer; font-size: 14px; font-weight: 500; background: #1e293b; color: #94a3b8; transition: background .15s; }
+    .tab-btn.active { background: #6366f1; color: #fff; font-weight: 600; }
+    .tab-panel { display: none; padding: 0 32px 32px; }
+    .tab-panel.active { display: block; }
+    .card { background: #1e293b; border-radius: 12px; padding: 24px; margin-top: 20px; }
+    .form-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
+    .field { display: flex; flex-direction: column; gap: 6px; }
+    label { font-size: 11px; text-transform: uppercase; letter-spacing: .05em; color: #64748b; }
+    select, input[type=text], input[type=password], input[type=number] {
+      background: #0f172a; color: #f1f5f9; border: 1px solid #334155;
+      border-radius: 6px; padding: 9px 12px; font-size: 14px; width: 100%;
+    }
+    select:focus, input:focus { outline: 2px solid #6366f1; border-color: transparent; }
+    .toggle-row { display: flex; align-items: center; gap: 10px; margin-top: 4px; }
+    .toggle-row input[type=checkbox] { width: 16px; height: 16px; cursor: pointer; }
+    .btn { padding: 10px 28px; border: none; border-radius: 8px; font-size: 14px; font-weight: 600; cursor: pointer; }
+    .btn-primary { background: #6366f1; color: #fff; }
+    .btn-primary:disabled { background: #334155; color: #64748b; cursor: not-allowed; }
+    .btn-danger  { background: #dc2626; color: #fff; }
+    .btn-secondary { background: #334155; color: #f1f5f9; border: 1px solid #475569; }
+    .run-actions { display: flex; align-items: center; gap: 16px; margin-top: 24px; }
+    #status-text { font-size: 13px; color: #64748b; }
+    .stats-bar { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; margin-top: 20px; }
+    .stat-card { background: #1e293b; border-radius: 10px; padding: 16px 20px; text-align: center; }
+    .stat-label { font-size: 11px; text-transform: uppercase; letter-spacing: .05em; color: #64748b; }
+    .stat-value { font-size: 28px; font-weight: 700; margin-top: 4px; }
+    #log-panel { background: #020617; border-radius: 10px; padding: 16px; font-family: monospace; font-size: 12px; height: 340px; overflow-y: auto; margin-top: 20px; line-height: 1.6; }
+    .log-skill  { color: #818cf8; }
+    .log-skip   { color: #f59e0b; }
+    .log-error  { color: #ef4444; }
+    .log-done   { color: #10b981; }
+    .log-plain  { color: #cbd5e1; }
+    .stop-row   { margin-top: 12px; display: flex; align-items: center; gap: 12px; }
+    .review-controls { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin-top: 20px; }
+    .review-controls select, .review-controls input { width: auto; min-width: 160px; }
+    #search-input { flex: 1; min-width: 200px; }
+    table { width: 100%; border-collapse: collapse; font-size: 13px; margin-top: 16px; }
+    th { color: #64748b; font-size: 11px; text-transform: uppercase; letter-spacing: .05em; text-align: left; padding: 8px 12px; border-bottom: 1px solid #334155; }
+    td { padding: 9px 12px; border-bottom: 1px solid #1e293b; color: #cbd5e1; }
+    tr:nth-child(even) td { background: #0f172a; }
+    .badge { padding: 2px 8px; border-radius: 4px; font-size: 11px; font-weight: 600; }
+    .badge-mcq   { background: #4c1d95; color: #ddd6fe; }
+    .badge-fill  { background: #1e3a8a; color: #bfdbfe; }
+    .badge-other { background: #1c3826; color: #6ee7b7; }
+    td.skill-cell { color: #818cf8; }
+    #review-count { font-size: 13px; color: #64748b; margin-top: 8px; }
+    .error-banner { background: #7f1d1d; border: 1px solid #991b1b; border-radius: 8px; padding: 12px 16px; font-size: 13px; color: #fca5a5; margin-top: 12px; display: none; }
+  </style>
+</head>
+<body>
+  <header>
+    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#6366f1" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg>
+    <h1>IXL Scraper Dashboard</h1>
+  </header>
+
+  <div class="tabs">
+    <button class="tab-btn active" data-tab="configure">⚙️ Configure &amp; Launch</button>
+    <button class="tab-btn" data-tab="progress">📡 Live Progress</button>
+    <button class="tab-btn" data-tab="review">🔍 Review Data</button>
+  </div>
+
+  <!-- ── Tab 1: Configure ── -->
+  <div id="tab-configure" class="tab-panel active">
+    <div class="card">
+      <form id="run-form" autocomplete="off">
+        <div class="form-grid">
+          <div class="field">
+            <label for="subject">Subject</label>
+            <select id="subject" name="subject">
+              <option value="maths">Maths</option>
+              <option value="english">English</option>
+              <option value="science">Science</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="year">Year Group</label>
+            <select id="year" name="year">
+              <option value="reception">Reception</option>
+              <option value="year-1">Year 1</option>
+              <option value="year-2">Year 2</option>
+              <option value="year-3">Year 3</option>
+              <option value="year-4">Year 4</option>
+              <option value="year-5">Year 5</option>
+              <option value="year-6">Year 6</option>
+              <option value="year-7">Year 7</option>
+              <option value="year-8">Year 8</option>
+              <option value="year-9">Year 9</option>
+              <option value="year-10">Year 10</option>
+              <option value="year-11">Year 11</option>
+              <option value="year-12">Year 12</option>
+              <option value="year-13">Year 13</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="username">IXL Username</label>
+            <input type="text" id="username" name="username" placeholder="e.g. supersheldon1">
+          </div>
+          <div class="field">
+            <label for="password">IXL Password</label>
+            <input type="password" id="password" name="password" placeholder="Required">
+          </div>
+          <div class="field">
+            <label for="max-questions">Max Questions per Skill</label>
+            <input type="number" id="max-questions" name="max_questions" value="0" min="0">
+            <span style="font-size:11px;color:#475569;margin-top:2px;">0 = auto-stop on repeat detection</span>
+          </div>
+          <div class="field">
+            <label>Headless Mode</label>
+            <div class="toggle-row">
+              <input type="checkbox" id="headless" name="headless" checked>
+              <span style="font-size:13px;color:#94a3b8;">Run browser in background</span>
+            </div>
+          </div>
+        </div>
+        <div class="run-actions">
+          <button type="submit" class="btn btn-primary" id="run-btn">&#9654; Run Scraper</button>
+          <span id="status-text">No scraper running</span>
+        </div>
+        <div class="error-banner" id="run-error"></div>
+      </form>
+    </div>
+  </div>
+
+  <!-- ── Tab 2: Progress ── -->
+  <div id="tab-progress" class="tab-panel">
+    <div class="stats-bar">
+      <div class="stat-card">
+        <div class="stat-label">Skills Done</div>
+        <div class="stat-value" id="stat-skills">—</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Questions Found</div>
+        <div class="stat-value" style="color:#10b981" id="stat-questions">—</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Skipped</div>
+        <div class="stat-value" style="color:#f59e0b" id="stat-skipped">—</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-label">Est. Time Left</div>
+        <div class="stat-value" id="stat-time">—</div>
+      </div>
+    </div>
+    <div id="log-panel"></div>
+    <div class="stop-row">
+      <button class="btn btn-danger" id="stop-btn">&#11035; Stop Scraper</button>
+      <span id="run-label" style="font-size:13px;color:#64748b;"></span>
+    </div>
+  </div>
+
+  <!-- ── Tab 3: Review ── -->
+  <div id="tab-review" class="tab-panel">
+    <div class="review-controls">
+      <select id="run-selector"><option value="">— Select a completed run —</option></select>
+      <select id="format-filter">
+        <option value="">All formats</option>
+        <option value="fill-in-blank">Fill in Blank</option>
+        <option value="multiple-choice">Multiple Choice</option>
+        <option value="word-bank">Word Bank</option>
+        <option value="click-to-select">Click to Select</option>
+        <option value="sort/sequence">Sort / Sequence</option>
+        <option value="drag-and-drop">Drag and Drop</option>
+        <option value="matching">Matching</option>
+      </select>
+      <input type="text" id="search-input" placeholder="Search questions…">
+      <button class="btn btn-secondary" id="export-btn">Export CSV</button>
+    </div>
+    <div id="review-count"></div>
+    <div style="overflow-x:auto">
+      <table id="review-table">
+        <thead>
+          <tr>
+            <th>Skill</th>
+            <th>Format</th>
+            <th>Question</th>
+            <th>Answer</th>
+            <th>Img</th>
+          </tr>
+        </thead>
+        <tbody id="review-tbody"></tbody>
+      </table>
+    </div>
+  </div>
+</body>
+</html>
