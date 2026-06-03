@@ -171,3 +171,90 @@ function showError(msg) {
 function clearError() {
   document.getElementById('run-error').style.display = 'none';
 }
+
+// ── Review tab ────────────────────────────────────────────────────────────────
+let _allQuestions = [];
+
+async function loadRuns() {
+  const res  = await fetch('/api/runs');
+  const runs = await res.json();
+  const sel  = document.getElementById('run-selector');
+  sel.innerHTML = '<option value="">— Select a completed run —</option>';
+  runs.forEach(r => {
+    const opt = document.createElement('option');
+    opt.value = `${r.subject}|${r.year}`;
+    opt.textContent = `${r.subject} / ${r.year}  (${r.count} questions)`;
+    sel.appendChild(opt);
+  });
+}
+
+document.getElementById('run-selector').addEventListener('change', async e => {
+  const [subject, year] = (e.target.value || '').split('|');
+  if (!subject || !year) { _allQuestions = []; renderTable([]); return; }
+  const res = await fetch(`/api/questions?subject=${subject}&year=${year}`);
+  _allQuestions = await res.json();
+  renderFiltered();
+});
+
+document.getElementById('format-filter').addEventListener('change', renderFiltered);
+document.getElementById('search-input').addEventListener('input', renderFiltered);
+
+function renderFiltered() {
+  const fmt    = document.getElementById('format-filter').value.toLowerCase();
+  const search = document.getElementById('search-input').value.toLowerCase();
+  const rows   = _allQuestions.filter(q => {
+    const fmtOk    = !fmt    || (q.format || '').toLowerCase().includes(fmt);
+    const searchOk = !search || (q.question_text || '').toLowerCase().includes(search)
+                              || (q.skill_name   || '').toLowerCase().includes(search);
+    return fmtOk && searchOk;
+  });
+  renderTable(rows);
+}
+
+function renderTable(rows) {
+  const tbody = document.getElementById('review-tbody');
+  tbody.innerHTML = '';
+  rows.forEach(q => {
+    const tr   = document.createElement('tr');
+    const fmt  = (q.format || 'other').toLowerCase();
+    const badgeCls = fmt.includes('multiple') ? 'badge-mcq'
+                   : fmt.includes('fill')     ? 'badge-fill'
+                   : 'badge-other';
+    tr.innerHTML = `
+      <td class="skill-cell">${esc(q.skill_name || '')}</td>
+      <td><span class="badge ${badgeCls}">${esc(q.format || 'other')}</span></td>
+      <td>${esc((q.question_text || '').slice(0, 120))}</td>
+      <td style="color:#10b981">${esc(q.correct_answer || '')}</td>
+      <td style="text-align:center">${q.has_image ? '🖼' : ''}</td>`;
+    tbody.appendChild(tr);
+  });
+  document.getElementById('review-count').textContent =
+    `${rows.length} of ${_allQuestions.length} questions`;
+}
+
+function esc(s) {
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+}
+
+// ── CSV export ─────────────────────────────────────────────────────────────────
+document.getElementById('export-btn').addEventListener('click', () => {
+  const fmt    = document.getElementById('format-filter').value.toLowerCase();
+  const search = document.getElementById('search-input').value.toLowerCase();
+  const rows   = _allQuestions.filter(q => {
+    const fmtOk    = !fmt    || (q.format || '').toLowerCase().includes(fmt);
+    const searchOk = !search || (q.question_text || '').toLowerCase().includes(search)
+                              || (q.skill_name   || '').toLowerCase().includes(search);
+    return fmtOk && searchOk;
+  });
+  if (!rows.length) return;
+
+  const cols = ['question_id','subject','year','skill_name','format','question_text','correct_answer','has_image'];
+  const csv  = [cols.join(','), ...rows.map(q =>
+    cols.map(c => `"${String(q[c] ?? '').replace(/"/g, '""')}"`).join(',')
+  )].join('\n');
+
+  const a   = document.createElement('a');
+  a.href    = 'data:text/csv;charset=utf-8,' + encodeURIComponent(csv);
+  a.download = 'ixl_questions.csv';
+  a.click();
+});
