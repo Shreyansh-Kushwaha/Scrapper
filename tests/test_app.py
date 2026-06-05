@@ -6,12 +6,13 @@ from pathlib import Path
 def client(tmp_path):
     app_module.OUTPUT_BASE = tmp_path
     app_module._running = False
-    app_module._proc = None
+    app_module._procs = []
+    app_module._run_config = {}
     app_module.app.config['TESTING'] = True
     with app_module.app.test_client() as c:
         yield c
     app_module._running = False
-    app_module._proc = None
+    app_module._procs = []
 
 def test_index_returns_html(client):
     r = client.get('/')

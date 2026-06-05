@@ -1,0 +1,13 @@
+[
+  {
+    "type": "multiple-choice",
+    "question": "Which sentence is more formal?",
+    "choices": [
+      "Andrew Carnegie made tons of cash when he sold his steel company to John Pierpont Morgan in 1901.",
+      "Andrew Carnegie became one of the world's richest men after selling his steel company to John Pierpont Morgan in 1901."
+    ],
+    "skill": "Which sentence is more formal? (Year 9 English)",
+    "skill_url": "https://uk.ixl.com/english/year-9/which-sentence-is-more-formal",
+    "question_index": 1
+  }
+]

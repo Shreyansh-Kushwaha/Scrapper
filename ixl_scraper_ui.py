@@ -101,14 +101,30 @@ def login(page, username, password):
     time.sleep(4)
 
     if page.query_selector(".subaccount-selection-form"):
-        page.evaluate(
-            "document.querySelector('[data-cy=\"subaccount-selection-Child 1\"] "
-            ".signin-avatar').click()"
-        )
-        time.sleep(3)
+        try:
+            # Click the first available child avatar (any child name)
+            page.evaluate(
+                "const a = document.querySelector('[data-cy^=\"subaccount-selection-\"] .signin-avatar');"
+                "if (a) a.click();"
+            )
+            time.sleep(3)
+        except Exception:
+            pass  # subaccount click failed — login may still be valid
 
-    ok = "Student Dashboard" in page.title() or "signin" not in page.url.lower()
-    if not ok:
+    # Require the URL to clearly indicate a logged-in student context.
+    # "signin" not in url is too broad — the subaccount selection page also
+    # lacks "signin" in its URL, so a failed subaccount click would slip through.
+    url  = page.url.lower()
+    title = page.title()
+    logged_in = (
+        "Student Dashboard" in title
+        or "/maths" in url
+        or "/english" in url
+        or "/science" in url
+        or "myprogress" in url
+        or ("ixl.com" in url and "signin" not in url and "account" not in url)
+    )
+    if not logged_in:
         p_error("Login failed — check credentials")
         return False
     print("Login OK", flush=True)
@@ -328,6 +344,9 @@ def scrape_skill(page, skill, subject, year, max_questions, img_dir):
     name = skill["name"]
     url  = skill["url"]
     session = requests.Session()
+    for ck in page.context.cookies():
+        session.cookies.set(ck['name'], ck['value'],
+                            domain=ck.get('domain', '').lstrip('.'))
 
     try:
         page.goto(url, wait_until="domcontentloaded", timeout=20000)
@@ -344,14 +363,15 @@ def scrape_skill(page, skill, subject, year, max_questions, img_dir):
         return [], 1
 
     try:
-        page.wait_for_selector(".question-component", timeout=8000)
+        page.wait_for_selector(".question-component", timeout=15000)
     except PWTimeout:
         print(f"  No question found.", flush=True)
         return [], 0
 
-    deadline = time.time() + 10
+    deadline = time.time() + 15
     while time.time() < deadline:
-        if get_question_text(page) and len(get_question_text(page)) > 20:
+        t = get_question_text(page)
+        if t and len(t) > 20:
             break
         time.sleep(0.5)
 
@@ -380,19 +400,22 @@ def scrape_skill(page, skill, subject, year, max_questions, img_dir):
                 break
             continue
 
-        stem_prefix = current_text[:80]
-        seen_stems[stem_prefix] = seen_stems.get(stem_prefix, 0) + 1
-        if seen_stems[stem_prefix] >= 2:
-            break
-
-        qc       = page.query_selector(".question-component")
-        full     = clean(qc.inner_text() if qc else "")
-        choices  = extract_choices(page, qtype)
-        stem     = full
+        qc      = page.query_selector(".question-component")
+        full    = clean(qc.inner_text() if qc else "")
+        choices = extract_choices(page, qtype)
+        stem    = full
         if choices:
             idx = full.find(choices[0])
             if idx > 0:
                 stem = full[:idx].strip()
+
+        # Use the extracted stem (question only, no passage/choices) as the repeat key.
+        # Hashing the full stem avoids false positives on passage-based questions where
+        # the first 80 chars of current_text are always the same passage opener.
+        stem_key = hashlib.md5(stem.encode()).hexdigest()
+        seen_stems[stem_key] = seen_stems.get(stem_key, 0) + 1
+        if seen_stems[stem_key] >= 2:
+            break
 
         blanks = []
         if "fill" in qtype:
@@ -439,21 +462,29 @@ def main():
     parser.add_argument("--username",      required=True)
     parser.add_argument("--password",      required=True)
     parser.add_argument("--max-questions", type=int, default=0)
-    parser.add_argument("--output-dir",    required=True)
+    parser.add_argument("--output-dir",    default=None)
+    parser.add_argument("--skills-file",   default=None, help="JSON file with [{name,url}] list")
+    parser.add_argument("--discover-only", action="store_true", help="Login, list skills as JSON, exit")
     parser.add_argument("--headless",      action="store_true")
     args = parser.parse_args()
 
-    output_dir = Path(args.output_dir)
-    output_dir.mkdir(parents=True, exist_ok=True)
-    img_dir = output_dir / "images"
-    img_dir.mkdir(exist_ok=True)
-
-    start_time = time.time()
+    if not args.discover_only and not args.output_dir:
+        p_error("--output-dir is required unless --discover-only is set")
+        sys.exit(1)
 
     with sync_playwright() as pw:
         browser = pw.chromium.launch(
             headless=args.headless,
-            args=["--no-sandbox", "--disable-dev-shm-usage"],
+            args=[
+                "--no-sandbox",
+                "--disable-dev-shm-usage",
+                "--disable-extensions",
+                "--disable-background-networking",
+                "--disable-default-apps",
+                "--disable-sync",
+                "--no-first-run",
+                "--mute-audio",
+            ],
         )
         ctx = browser.new_context(
             user_agent=(
@@ -470,16 +501,33 @@ def main():
             browser.close()
             sys.exit(1)
 
-        skills = get_skills(page, args.subject, args.year)
-        if not skills:
-            p_error("No skills found on index page")
+        # ── Discover-only mode ────────────────────────────────────────────────
+        if args.discover_only:
+            skills = get_skills(page, args.subject, args.year)
+            print(f"[SKILLS] {json.dumps(skills, ensure_ascii=False)}", flush=True)
             browser.close()
-            sys.exit(1)
+            sys.exit(0)
+
+        # ── Normal scrape mode ────────────────────────────────────────────────
+        output_dir = Path(args.output_dir)
+        output_dir.mkdir(parents=True, exist_ok=True)
+        img_dir = output_dir / "images"
+        img_dir.mkdir(exist_ok=True)
+
+        if args.skills_file:
+            skills = json.loads(Path(args.skills_file).read_text(encoding="utf-8"))
+        else:
+            skills = get_skills(page, args.subject, args.year)
+            if not skills:
+                p_error("No skills found on index page")
+                browser.close()
+                sys.exit(1)
 
         p_start(args.subject, args.year, len(skills))
 
         all_questions = []
         total_skipped = 0
+        start_time = time.time()
 
         for i, skill in enumerate(skills, 1):
             p_skill(i, len(skills), skill["name"])

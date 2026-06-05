@@ -6,6 +6,33 @@ let _skillsDone  = 0;
 let _questions   = 0;
 let _skipped     = 0;
 let _startTime   = 0;
+let _allSkills   = [];   // loaded skill list [{name, url}]
+
+// ── Form persistence (localStorage) ───────────────────────────────────────────
+const PERSIST_FIELDS = ['subject', 'year', 'username', 'password', 'max-questions', 'workers'];
+
+function saveForm() {
+  PERSIST_FIELDS.forEach(id => {
+    localStorage.setItem('ixl_' + id, document.getElementById(id).value);
+  });
+  localStorage.setItem('ixl_headless', document.getElementById('headless').checked);
+}
+
+function restoreForm() {
+  PERSIST_FIELDS.forEach(id => {
+    const val = localStorage.getItem('ixl_' + id);
+    if (val !== null) document.getElementById(id).value = val;
+  });
+  const headless = localStorage.getItem('ixl_headless');
+  if (headless !== null) document.getElementById('headless').checked = headless === 'true';
+}
+
+restoreForm();
+PERSIST_FIELDS.forEach(id => {
+  document.getElementById(id).addEventListener('change', saveForm);
+  document.getElementById(id).addEventListener('input', saveForm);
+});
+document.getElementById('headless').addEventListener('change', saveForm);
 
 // ── Tab switching ──────────────────────────────────────────────────────────────
 document.querySelectorAll('.tab-btn').forEach(btn => {
@@ -19,6 +46,82 @@ document.querySelectorAll('.tab-btn').forEach(btn => {
   });
 });
 
+// ── Load Skills ───────────────────────────────────────────────────────────────
+document.getElementById('load-skills-btn').addEventListener('click', async () => {
+  const password = document.getElementById('password').value.trim();
+  if (!password) { showError('Enter credentials before loading skills.'); return; }
+  clearError();
+
+  const btn = document.getElementById('load-skills-btn');
+  const status = document.getElementById('skills-status');
+  btn.disabled = true;
+  status.textContent = 'Logging in and loading skills… (~20s)';
+
+  try {
+    const res = await fetch('/discover', {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({
+        subject:  document.getElementById('subject').value,
+        year:     document.getElementById('year').value,
+        username: document.getElementById('username').value.trim(),
+        password,
+      }),
+    });
+    const data = await res.json();
+    if (!res.ok) {
+      status.textContent = 'Failed: ' + (data.error || 'unknown error');
+      return;
+    }
+    _allSkills = data.skills;
+    renderSkillsChecklist(_allSkills);
+    document.getElementById('skills-list-container').style.display = 'block';
+    status.textContent = `${_allSkills.length} skills loaded`;
+  } catch (err) {
+    status.textContent = 'Error: ' + err.message;
+  } finally {
+    btn.disabled = false;
+  }
+});
+
+function renderSkillsChecklist(skills) {
+  const container = document.getElementById('skills-checklist');
+  container.innerHTML = '';
+  skills.forEach((skill, i) => {
+    const label = document.createElement('label');
+    label.className = 'skill-item';
+    const cb = document.createElement('input');
+    cb.type = 'checkbox'; cb.value = i; cb.checked = true;
+    cb.addEventListener('change', updateSkillsCount);
+    label.appendChild(cb);
+    label.appendChild(document.createTextNode(skill.name));
+    container.appendChild(label);
+  });
+  updateSkillsCount();
+}
+
+function updateSkillsCount() {
+  const n = document.querySelectorAll('#skills-checklist input:checked').length;
+  document.getElementById('skills-count').textContent = `${n} / ${_allSkills.length} selected`;
+}
+
+document.getElementById('select-all-btn').addEventListener('click', () => {
+  document.querySelectorAll('#skills-checklist input').forEach(cb => cb.checked = true);
+  updateSkillsCount();
+});
+document.getElementById('deselect-all-btn').addEventListener('click', () => {
+  document.querySelectorAll('#skills-checklist input').forEach(cb => cb.checked = false);
+  updateSkillsCount();
+});
+
+function getSelectedSkills() {
+  const selected = [];
+  document.querySelectorAll('#skills-checklist input:checked').forEach(cb => {
+    selected.push(_allSkills[parseInt(cb.value)]);
+  });
+  return selected;
+}
+
 // ── Form submit → POST /run ────────────────────────────────────────────────────
 document.getElementById('run-form').addEventListener('submit', async e => {
   e.preventDefault();
@@ -27,15 +130,23 @@ document.getElementById('run-form').addEventListener('submit', async e => {
     showError('Password is required.');
     return;
   }
+
+  const selectedSkills = getSelectedSkills();
+  if (_allSkills.length > 0 && selectedSkills.length === 0) {
+    showError('Select at least one skill, or click "Select All".');
+    return;
+  }
   clearError();
 
   const payload = {
-    subject:       document.getElementById('subject').value,
-    year:          document.getElementById('year').value,
-    username:      document.getElementById('username').value.trim(),
-    password:      password,
-    max_questions: parseInt(document.getElementById('max-questions').value, 10),
-    headless:      document.getElementById('headless').checked,
+    subject:          document.getElementById('subject').value,
+    year:             document.getElementById('year').value,
+    username:         document.getElementById('username').value.trim(),
+    password:         password,
+    max_questions:    parseInt(document.getElementById('max-questions').value, 10),
+    headless:         document.getElementById('headless').checked,
+    selected_skills:  selectedSkills,
+    workers:          parseInt(document.getElementById('workers').value, 10) || 1,
   };
 
   const res = await fetch('/run', {

@@ -1,0 +1,39 @@
+[
+  {
+    "type": "multiple-choice",
+    "question": "Read the passage. AC vs DC In the 1880s, the War of the Currents began. Thomas Edison developed direct current, or DC, a type of electricity that flows in one direction. By 1887, DC was in use around the United States. It had some drawbacks, though. Converting it to lower or higher voltages was difficult; that is, the current's force couldn't be changed easily. Transmitted at the low voltage needed for use in homes and businesses, it lost power after travelling only one and a half kilometres. Meanwhile, Nikola Tesla was working with alternating current, or AC. AC reverses direction many times per second and can be changed to different voltages. At high voltage, it can be transmitted efficiently, travelling hundreds of kilometres with little energy loss. Because of its advantages, AC triumphed by the end of the nineteenth century. What is the main, or central, idea of the passage?",
+    "choices": [
+      "AC reverses direction and can be converted to lower or higher voltage.",
+      "AC has distinct advantages over DC, so AC won the War of the Currents."
+    ],
+    "skill": "Main idea",
+    "skill_url": "https://uk.ixl.com/english/year-9/determine-the-main-idea-of-a-passage"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Review the text. Climb the great stone steps of a pyramid and gaze across a green clearing filled with other tall stone structures reaching skywards. These lofty pyramids possess equally lofty names: Temple of Inscriptions, Temple of the Cross, Temple of the Sun. This is Palenque, Mexico! Palenque rose during the classic period of Mayan civilisation, from 250 to 900 CE. A dizzying array of carved records tells Palenque's story: curvy-beaked birds with crosshatched feathers; muscled warriors with grass anklets; suns and moons. Over 1,400 buildings have been documented, but the trim lawn giving way to lush jungle hints that there is more here than ruins. Roam onto cloaked jungle paths for another sense of this ancient place. Listen for the sharp cries of monkeys and parrots. Glimpse the shifting light falling through the canopy, revealing the rise of a dozen dragonflies! Which best shows that the author's purpose is to describe the experience of visiting the ruins of Palenque in Mexico?",
+    "choices": [
+      "The author shares details about how Palenque looks and sounds, like curvy-beaked birds and sharp cries of monkeys.",
+      "The author provides facts about Palenque's history, like Palenque rose during the classic period of Mayan civilisation."
+    ],
+    "skill": "Author purpose",
+    "skill_url": "https://uk.ixl.com/english/year-9/identify-the-authors-purpose"
+  },
+  {
+    "type": "multiple-choice",
+    "question": "Which sentence is more formal?",
+    "choices": [
+      "Andrew Carnegie made tons of cash when he sold his steel company to John Pierpont Morgan in 1901.",
+      "Andrew Carnegie became one of the world's richest men after selling his steel company to John Pierpont Morgan in 1901."
+    ],
+    "skill": "Formal sentence",
+    "skill_url": "https://uk.ixl.com/english/year-9/which-sentence-is-more-formal"
+  },
+  {
+    "type": "other",
+    "question": "Select the passage that has a more dejected tone. How often did Oliver sneak from his bed that night to listen for the slightest sound from the sick chamber! How often did a tremble shake his frame and cold drops of terror start upon his brow, when sudden footsteps caused him to fear that something too dreadful to think of had happened! He began feeling very miserable. She was ill. What if she should die! There was distraction in the thought. He no longer took an interest in anything. The charm of life was gone; there was nothing but dreariness left. He put his hoop away, and his bat; there was no joy in them anymore. Adapted from Charles Dickens, Oliver Twist and Mark Twain, The Adventures of Tom Sawyer Submit",
+    "choices": [],
+    "skill": "Compare tone",
+    "skill_url": "https://uk.ixl.com/english/year-9/compare-passages-for-tone"
+  }
+]
