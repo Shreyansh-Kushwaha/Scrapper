@@ -10960,5 +10960,3225 @@
     "image_paths": [],
     "scraped_at": "2026-06-13T16:57:42.606987+00:00",
     "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-thesaurus-entries-q1",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use thesaurus entries",
+    "skill_url": "https://au.ixl.com/english/year-8/use-thesaurus-entries",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Look at this thesaurus entry: discard Part of speech: verb Definition: to get rid of Synonyms: dispose of, reject, rid, throw out, trash Which might someone discard?",
+    "options": [
+      "an unneeded receipt",
+      "a bad habit"
+    ],
+    "correct_answer": "an unneeded receipt",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T16:58:11.433342+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-thesaurus-entries-q2",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use thesaurus entries",
+    "skill_url": "https://au.ixl.com/english/year-8/use-thesaurus-entries",
+    "question_index": 2,
+    "format": "multiple-choice",
+    "question_text": "Look at this thesaurus entry: entrance Part of speech: verb Definition: to fill with wonder Synonyms: charm, dazzle, delight, enchant, interest Which is more likely to entrance you?",
+    "options": [
+      "an amazing performance",
+      "a confusing situation"
+    ],
+    "correct_answer": "an amazing performance",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T16:58:15.589364+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-thesaurus-entries-q3",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use thesaurus entries",
+    "skill_url": "https://au.ixl.com/english/year-8/use-thesaurus-entries",
+    "question_index": 3,
+    "format": "multiple-choice",
+    "question_text": "Look at this thesaurus entry: motive Part of speech: noun Definition: a reason Synonyms: aim, intention, motivation, reason Which is a motive?",
+    "options": [
+      "a goal that drives you to act",
+      "an explanation of why you couldn't act"
+    ],
+    "correct_answer": "a goal that drives you to act",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T16:58:19.563687+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-thesaurus-entries-q4",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use thesaurus entries",
+    "skill_url": "https://au.ixl.com/english/year-8/use-thesaurus-entries",
+    "question_index": 4,
+    "format": "multiple-choice",
+    "question_text": "Look at this thesaurus entry: deduce Part of speech: verb Definition: to reason Synonyms: conclude, infer, think, understand Which is the result if you deduce something?",
+    "options": [
+      "figuring something out",
+      "winning an argument"
+    ],
+    "correct_answer": "figuring something out",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T16:58:23.711084+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-thesaurus-entries-q5",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use thesaurus entries",
+    "skill_url": "https://au.ixl.com/english/year-8/use-thesaurus-entries",
+    "question_index": 5,
+    "format": "multiple-choice",
+    "question_text": "Look at this thesaurus entry: rehearse Part of speech: verb Definition: to practise in advance Synonyms: perform, prepare, recite, repeat, train Which might you rehearse for?",
+    "options": [
+      "a party",
+      "a play"
+    ],
+    "correct_answer": "a play",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T16:58:32.178251+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-thesaurus-entries-q6",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use thesaurus entries",
+    "skill_url": "https://au.ixl.com/english/year-8/use-thesaurus-entries",
+    "question_index": 6,
+    "format": "multiple-choice",
+    "question_text": "Look at this thesaurus entry: accumulate Part of speech: verb Definition: to gather gradually Synonyms: collect, gather, keep What might a person accumulate as she ages?",
+    "options": [
+      "memories",
+      "inexperience"
+    ],
+    "correct_answer": "inexperience",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T16:58:41.084638+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-thesaurus-entries-q7",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use thesaurus entries",
+    "skill_url": "https://au.ixl.com/english/year-8/use-thesaurus-entries",
+    "question_index": 7,
+    "format": "multiple-choice",
+    "question_text": "Look at this thesaurus entry: obligation Part of speech: noun Definition: something you must do Synonyms: burden, commitment, duty, pledge, promise, responsibility Which is an obligation?",
+    "options": [
+      "taking care of your pet",
+      "going to the movies"
+    ],
+    "correct_answer": "taking care of your pet",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T16:58:45.031722+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-thesaurus-entries-q8",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use thesaurus entries",
+    "skill_url": "https://au.ixl.com/english/year-8/use-thesaurus-entries",
+    "question_index": 8,
+    "format": "multiple-choice",
+    "question_text": "Look at this thesaurus entry: concord Part of speech: noun Definition: a state of agreement Synonyms: agreement, friendship, harmony, peace Who has already reached a concord?",
+    "options": [
+      "a pair of business partners",
+      "a pair of enemies"
+    ],
+    "correct_answer": "a pair of business partners",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T16:58:49.148051+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-thesaurus-entries-q9",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use thesaurus entries",
+    "skill_url": "https://au.ixl.com/english/year-8/use-thesaurus-entries",
+    "question_index": 9,
+    "format": "multiple-choice",
+    "question_text": "Look at this thesaurus entry: random Part of speech: adjective Definition: depending on chance Synonyms: accidental, aimless, by chance, stray Which is random?",
+    "options": [
+      "counting by twos",
+      "rolling dice"
+    ],
+    "correct_answer": "rolling dice",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T16:58:57.762734+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-thesaurus-entries-q10",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use thesaurus entries",
+    "skill_url": "https://au.ixl.com/english/year-8/use-thesaurus-entries",
+    "question_index": 10,
+    "format": "multiple-choice",
+    "question_text": "Look at this thesaurus entry: disrupt Part of speech: verb Definition: to interrupt Synonyms: bother, disturb, trouble Which might disrupt your sleep?",
+    "options": [
+      "nighttime",
+      "a loud noise"
+    ],
+    "correct_answer": "a loud noise",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T16:59:06.782713+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-thesaurus-entries-q11",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use thesaurus entries",
+    "skill_url": "https://au.ixl.com/english/year-8/use-thesaurus-entries",
+    "question_index": 11,
+    "format": "multiple-choice",
+    "question_text": "Look at this thesaurus entry: wan Part of speech: adjective Definition: appearing pale and ill Synonyms: ashen, colourless, faint, ghostly, pale Which might be described as wan?",
+    "options": [
+      "a face",
+      "a table"
+    ],
+    "correct_answer": "a face",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T16:59:11.086887+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-thesaurus-entries-q12",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use thesaurus entries",
+    "skill_url": "https://au.ixl.com/english/year-8/use-thesaurus-entries",
+    "question_index": 12,
+    "format": "multiple-choice",
+    "question_text": "Look at this thesaurus entry: deliberate Part of speech: adjective Definition: on purpose Synonyms: designed, intentional, planned, wilful Which is deliberate?",
+    "options": [
+      "scheduling a meeting",
+      "dropping a plate"
+    ],
+    "correct_answer": "scheduling a meeting",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T16:59:15.373892+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-thesaurus-entries-q13",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use thesaurus entries",
+    "skill_url": "https://au.ixl.com/english/year-8/use-thesaurus-entries",
+    "question_index": 13,
+    "format": "multiple-choice",
+    "question_text": "Look at this thesaurus entry: irregular Part of speech: adjective Definition: not even Synonyms: changing, choppy, different, unsteady Which has more irregular edges?",
+    "options": [
+      "a piece of bark",
+      "a sheet of paper"
+    ],
+    "correct_answer": "a piece of bark",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T16:59:19.286163+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-is-it-a-complete-sentence-or-a-run-on-q1",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Is it a complete sentence or a run-on?",
+    "skill_url": "https://au.ixl.com/english/year-8/is-it-a-complete-sentence-or-a-run-on",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Which is a complete sentence?",
+    "options": [
+      "Ivy is an adept musician, she has trained for many years.",
+      "In Japan, the Hanshin Expressway actually runs through a building!"
+    ],
+    "correct_answer": "In Japan, the Hanshin Expressway actually runs through a building!",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T16:59:46.013623+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-is-it-a-phrase-or-a-clause-q1",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Is it a phrase or a clause?",
+    "skill_url": "https://au.ixl.com/english/year-8/is-it-a-phrase-or-a-clause",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Is the group of words in bold a",
+    "options": [
+      "phrase",
+      "clause"
+    ],
+    "correct_answer": "clause",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T16:59:59.935037+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-identify-vague-pronoun-references-q1",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Identify vague pronoun references",
+    "skill_url": "https://au.ixl.com/english/year-8/identify-vague-pronoun-references",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Which of the following contains a vague pronoun reference?",
+    "options": [
+      "Ms Wilson asked her daughter to chop the celery, but her daughter couldn't find the knife.",
+      "Ms Wilson asked her daughter to chop the celery, but she couldn't find the knife."
+    ],
+    "correct_answer": "Ms Wilson asked her daughter to chop the celery, but she couldn't find the knife.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:00:59.223777+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-subject-and-object-pronouns-q1",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between subject and object pronouns",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-subject-and-object-pronouns",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Select the correct pronoun to complete the sentence. While the Turners are travelling, have asked Scarlett to care for their dog.",
+    "options": [
+      "they",
+      "them"
+    ],
+    "correct_answer": "While the Turners are travelling, they have asked Scarlett to care for their dog.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:01:10.433899+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-subject-and-object-pronouns-q2",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between subject and object pronouns",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-subject-and-object-pronouns",
+    "question_index": 2,
+    "format": "multiple-choice",
+    "question_text": "Select the correct pronoun to complete the sentence. Our favourite author gave autographed copies of his best-selling novel.",
+    "options": [
+      "we",
+      "us"
+    ],
+    "correct_answer": "us",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:01:18.770782+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-subject-and-object-pronouns-q3",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between subject and object pronouns",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-subject-and-object-pronouns",
+    "question_index": 3,
+    "format": "multiple-choice",
+    "question_text": "Select the correct pronoun to complete the sentence. The toddler wobbled toward with his arms waving in the air.",
+    "options": [
+      "her",
+      "she"
+    ],
+    "correct_answer": "The toddler wobbled toward her with his arms waving in the air.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:01:22.931112+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-subject-and-object-pronouns-q4",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between subject and object pronouns",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-subject-and-object-pronouns",
+    "question_index": 4,
+    "format": "multiple-choice",
+    "question_text": "Select the correct pronoun to complete the sentence. cooked the steaks for about seven minutes on each side.",
+    "options": [
+      "Me",
+      "I"
+    ],
+    "correct_answer": "I",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:01:31.052271+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-subject-and-object-pronouns-q5",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between subject and object pronouns",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-subject-and-object-pronouns",
+    "question_index": 5,
+    "format": "multiple-choice",
+    "question_text": "Select the correct pronoun to complete the sentence. I always rinse the dishes before I put in the dishwasher.",
+    "options": [
+      "they",
+      "them"
+    ],
+    "correct_answer": "them",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:01:39.131284+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-subject-and-object-pronouns-q6",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between subject and object pronouns",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-subject-and-object-pronouns",
+    "question_index": 6,
+    "format": "multiple-choice",
+    "question_text": "Select the correct pronoun to complete the sentence. Sebastian sat with during the department meeting.",
+    "options": [
+      "we",
+      "us"
+    ],
+    "correct_answer": "us",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:01:47.164094+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-subject-and-object-pronouns-q7",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between subject and object pronouns",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-subject-and-object-pronouns",
+    "question_index": 7,
+    "format": "multiple-choice",
+    "question_text": "Select t",
+    "options": [
+      "he",
+      "him"
+    ],
+    "correct_answer": "him",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:01:55.349874+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-subject-and-object-pronouns-q8",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between subject and object pronouns",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-subject-and-object-pronouns",
+    "question_index": 8,
+    "format": "multiple-choice",
+    "question_text": "Select the correct pronoun to complete the sentence. Ms Jones's karate partner lunged at during practice, but",
+    "options": [
+      "she",
+      "her"
+    ],
+    "correct_answer": "her",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:02:03.364110+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-subject-and-object-pronouns-q9",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between subject and object pronouns",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-subject-and-object-pronouns",
+    "question_index": 9,
+    "format": "multiple-choice",
+    "question_text": "Select the correct pronoun to complete the sentence. When Kate accidentally dropped her backpack on my foot, she im",
+    "options": [
+      "me",
+      "I"
+    ],
+    "correct_answer": "When Kate accidentally dropped her backpack on my foot, she immediately apologised to me",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:02:07.186807+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-subject-and-object-pronouns-q10",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between subject and object pronouns",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-subject-and-object-pronouns",
+    "question_index": 10,
+    "format": "multiple-choice",
+    "question_text": "Select the correct pronoun to complete the sentence. Since I won't be able to visit Olivia and Riley for their birthday, I'll have to send their presents.",
+    "options": [
+      "them",
+      "they"
+    ],
+    "correct_answer": "Since I won't be able to visit Olivia and Riley for their birthday, I'll have to send them their presents.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:02:11.545065+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-subject-and-object-pronouns-q11",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between subject and object pronouns",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-subject-and-object-pronouns",
+    "question_index": 11,
+    "format": "multiple-choice",
+    "question_text": "Select the correct pronoun to complete the sentence. When we gave Liam a comic book for his birthday, he thanked",
+    "options": [
+      "us",
+      "we"
+    ],
+    "correct_answer": "When we gave Liam a comic book for his birthday, he thanked us",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:02:18.936070+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-subject-and-object-pronouns-q12",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between subject and object pronouns",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-subject-and-object-pronouns",
+    "question_index": 12,
+    "format": "multiple-choice",
+    "question_text": "Select the correct pronoun to complete the sentence. Are you absolutely certain that it was",
+    "options": [
+      "she",
+      "her"
+    ],
+    "correct_answer": "Are you absolutely certain that it was she",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:02:25.545907+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-subject-and-object-pronouns-q13",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between subject and object pronouns",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-subject-and-object-pronouns",
+    "question_index": 13,
+    "format": "multiple-choice",
+    "question_text": "Select the correct pronoun to complete the sentence. visited several cathedrals and museums while in Adelaide.",
+    "options": [
+      "I",
+      "Me"
+    ],
+    "correct_answer": "I visited several cathedrals and museums while in Adelaide.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:02:31.466499+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-subject-and-object-pronouns-q14",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between subject and object pronouns",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-subject-and-object-pronouns",
+    "question_index": 14,
+    "format": "multiple-choice",
+    "question_text": "Select the correct pronoun to complete the sentence. Everyone in the history class had read the document except for",
+    "options": [
+      "him",
+      "he"
+    ],
+    "correct_answer": "Everyone in the history class had read the document except for him",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:02:38.235897+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-subject-and-object-pronouns-q15",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between subject and object pronouns",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-subject-and-object-pronouns",
+    "question_index": 15,
+    "format": "multiple-choice",
+    "question_text": "Select the correct pronoun to complete the sentence. While the Collinses are travelling, have asked Nicole to care for their dog.",
+    "options": [
+      "them",
+      "they"
+    ],
+    "correct_answer": "they",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:02:49.480315+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-subject-and-object-pronouns-q16",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between subject and object pronouns",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-subject-and-object-pronouns",
+    "question_index": 16,
+    "format": "multiple-choice",
+    "question_text": "Select the correct pronoun to complete the sentence. When we gave Daniel a comic book for his birthday, he thanked",
+    "options": [
+      "us",
+      "we"
+    ],
+    "correct_answer": "When we gave Daniel a comic book for his birthday, he thanked us",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:03:38.732498+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-compound-subjects-and-objects-with-pronouns-q1",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Compound subjects and objects with pronouns",
+    "skill_url": "https://au.ixl.com/english/year-8/compound-subjects-and-objects-with-pronouns",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Select the correct pronoun to complete the sentence. As Hannah slept, Mr Edwards wrapped a blanket around and her doll.",
+    "options": [
+      "she",
+      "her"
+    ],
+    "correct_answer": "her",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:04:10.345899+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-compound-subjects-and-objects-with-pronouns-q2",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Compound subjects and objects with pronouns",
+    "skill_url": "https://au.ixl.com/english/year-8/compound-subjects-and-objects-with-pronouns",
+    "question_index": 2,
+    "format": "multiple-choice",
+    "question_text": "Select the correct pronoun to complete the sentence. Lucy greatly admires and the other volunteers.",
+    "options": [
+      "him",
+      "he"
+    ],
+    "correct_answer": "Lucy greatly admires him and the other volunteers.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:04:15.001280+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-compound-subjects-and-objects-with-pronouns-q3",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Compound subjects and objects with pronouns",
+    "skill_url": "https://au.ixl.com/english/year-8/compound-subjects-and-objects-with-pronouns",
+    "question_index": 3,
+    "format": "multiple-choice",
+    "question_text": "Select the correct pronoun to complete the sentence. Please don't interfere with and their private affairs.",
+    "options": [
+      "they",
+      "them"
+    ],
+    "correct_answer": "them",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:04:23.537238+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-compound-subjects-and-objects-with-pronouns-q4",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Compound subjects and objects with pronouns",
+    "skill_url": "https://au.ixl.com/english/year-8/compound-subjects-and-objects-with-pronouns",
+    "question_index": 4,
+    "format": "multiple-choice",
+    "question_text": "Select the correct pronoun to complete the sentence. Mr Watson escorted and our children to our hotel room.",
+    "options": [
+      "we",
+      "us"
+    ],
+    "correct_answer": "us",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:04:33.990764+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-compound-subjects-and-objects-with-pronouns-q5",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Compound subjects and objects with pronouns",
+    "skill_url": "https://au.ixl.com/english/year-8/compound-subjects-and-objects-with-pronouns",
+    "question_index": 5,
+    "format": "multiple-choice",
+    "question_text": "Select the correct pronoun to complete the sentence. You may not re",
+    "options": [
+      "me",
+      "I"
+    ],
+    "correct_answer": "I",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:04:42.789334+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-compound-subjects-and-objects-with-pronouns-q6",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Compound subjects and objects with pronouns",
+    "skill_url": "https://au.ixl.com/english/year-8/compound-subjects-and-objects-with-pronouns",
+    "question_index": 6,
+    "format": "multiple-choice",
+    "question_text": "Select the correct pronoun to complete the sentence. Daniel impressed and Stella when he mentioned his favourite movie is Rashomon.",
+    "options": [
+      "her",
+      "she"
+    ],
+    "correct_answer": "Daniel impressed her and Stella when he mentioned his favourite movie is Rashomon.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:04:48.249883+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-compound-subjects-and-objects-with-pronouns-q7",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Compound subjects and objects with pronouns",
+    "skill_url": "https://au.ixl.com/english/year-8/compound-subjects-and-objects-with-pronouns",
+    "question_index": 7,
+    "format": "multiple-choice",
+    "question_text": "Select t",
+    "options": [
+      "he",
+      "him"
+    ],
+    "correct_answer": "him",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:05:12.699937+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-compound-subjects-and-objects-with-pronouns-q8",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Compound subjects and objects with pronouns",
+    "skill_url": "https://au.ixl.com/english/year-8/compound-subjects-and-objects-with-pronouns",
+    "question_index": 8,
+    "format": "multiple-choice",
+    "question_text": "Select the correct pronoun to complete the sentence. The kayaking guide gave and the other couples life jackets and matching helmets.",
+    "options": [
+      "us",
+      "we"
+    ],
+    "correct_answer": "The kayaking guide gave us and the other couples life jackets and matching helmets.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:05:17.604410+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-compound-subjects-and-objects-with-pronouns-q9",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Compound subjects and objects with pronouns",
+    "skill_url": "https://au.ixl.com/english/year-8/compound-subjects-and-objects-with-pronouns",
+    "question_index": 9,
+    "format": "multiple-choice",
+    "question_text": "Select the correct pronoun to complete the sentence. At the wedding ceremony, Tatsu recited a poem for and their guests.",
+    "options": [
+      "they",
+      "them"
+    ],
+    "correct_answer": "them",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:05:27.460256+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-compound-subjects-and-objects-with-pronouns-q10",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Compound subjects and objects with pronouns",
+    "skill_url": "https://au.ixl.com/english/year-8/compound-subjects-and-objects-with-pronouns",
+    "question_index": 10,
+    "format": "multiple-choice",
+    "question_text": "Select the correct pronoun to complete the sentence. The layout editor and want to schedule a photo shoot with you.",
+    "options": [
+      "me",
+      "I"
+    ],
+    "correct_answer": "I",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:05:37.451204+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-compound-subjects-and-objects-with-pronouns-q11",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Compound subjects and objects with pronouns",
+    "skill_url": "https://au.ixl.com/english/year-8/compound-subjects-and-objects-with-pronouns",
+    "question_index": 11,
+    "format": "multiple-choice",
+    "question_text": "Select the correct pronoun to complete the sentence. Mr Murphy rarely worries about and Isaac, because they're both so responsible.",
+    "options": [
+      "her",
+      "she"
+    ],
+    "correct_answer": "Mr Murphy rarely worries about her and Isaac, because they're both so responsible.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:05:41.497846+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-verb-with-compound-subjects-q1",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct verb – with compound subjects",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-verb-with-compound-subjects",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the best verb. Whenever Astro runs out into the yard, the chickens and the rooster into the coop.",
+    "options": [
+      "disappears",
+      "disappear"
+    ],
+    "correct_answer": "disappear",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:07:49.185392+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-verb-with-compound-subjects-q2",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct verb – with compound subjects",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-verb-with-compound-subjects",
+    "question_index": 2,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the best verb. Whenever we go camping, either Tiffany or Aiden up the tent while Helen and I start the campfire.",
+    "options": [
+      "sets",
+      "set"
+    ],
+    "correct_answer": "Whenever we go camping, either Tiffany or Aiden sets up the tent while Helen and I start the campfire.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:07:55.809587+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-verb-with-compound-subjects-q3",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct verb – with compound subjects",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-verb-with-compound-subjects",
+    "question_index": 3,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the best verb. The award-winning author and his editor to audiences of writers and students every week.",
+    "options": [
+      "speak",
+      "speaks"
+    ],
+    "correct_answer": "The award-winning author and his editor speak to audiences of writers and students every week.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:08:01.038808+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-verb-with-compound-subjects-q4",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct verb – with compound subjects",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-verb-with-compound-subjects",
+    "question_index": 4,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the best verb. When we stay at Mr Clarke's farm, either the roosters or the pigs us up early in the morning.",
+    "options": [
+      "wakes",
+      "wake"
+    ],
+    "correct_answer": "wake",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:08:29.992439+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-verb-with-compound-subjects-q5",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct verb – with compound subjects",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-verb-with-compound-subjects",
+    "question_index": 5,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the best verb. In the summer, either the apple tree by the back wall or the one next to the garage the most fruit.",
+    "options": [
+      "produce",
+      "produces"
+    ],
+    "correct_answer": "produces",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:08:39.989766+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-verb-with-compound-subjects-q6",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct verb – with compound subjects",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-verb-with-compound-subjects",
+    "question_index": 6,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the best verb. Whenever Olivia and Aiden the bells of the neighbourhood ice cream truck, they quickly run upstairs to get some money.",
+    "options": [
+      "hears",
+      "hear"
+    ],
+    "correct_answer": "hear",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:08:49.294758+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-verb-with-compound-subjects-q7",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct verb – with compound subjects",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-verb-with-compound-subjects",
+    "question_index": 7,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the best verb. Either Madison or her assistant to Singapore whenever there's an important board meeting.",
+    "options": [
+      "flies",
+      "fly"
+    ],
+    "correct_answer": "Either Madison or her assistant flies to Singapore whenever there's an important board meeting.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:08:55.050755+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-verb-with-compound-subjects-q8",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct verb – with compound subjects",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-verb-with-compound-subjects",
+    "question_index": 8,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the best verb. Your cabbage salad and homemade bread even better than I remember.",
+    "options": [
+      "taste",
+      "tastes"
+    ],
+    "correct_answer": "Your cabbage salad and homemade bread taste even better than I remember.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:08:59.935648+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-verb-with-compound-subjects-q9",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct verb – with compound subjects",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-verb-with-compound-subjects",
+    "question_index": 9,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the best verb. Every time we look at my baby pictures, Mum or Dad a little remembering how happy they were to become parents.",
+    "options": [
+      "cries",
+      "cry"
+    ],
+    "correct_answer": "Every time we look at my baby pictures, Mum or Dad cries a little remembering how happy they were to become parents.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:09:04.792226+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-verb-with-compound-subjects-q10",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct verb – with compound subjects",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-verb-with-compound-subjects",
+    "question_index": 10,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the best verb. Although the players and the coach that the team struggled this season, they hope to do better next year.",
+    "options": [
+      "admits",
+      "admit"
+    ],
+    "correct_answer": "admit",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:09:13.967810+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-verb-with-compound-subjects-q11",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct verb – with compound subjects",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-verb-with-compound-subjects",
+    "question_index": 11,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the best verb. The photograph and story in today's paper perfectly the spirit of our town.",
+    "options": [
+      "captures",
+      "capture"
+    ],
+    "correct_answer": "capture",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:09:22.407116+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-verb-with-compound-subjects-q12",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct verb – with compound subjects",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-verb-with-compound-subjects",
+    "question_index": 12,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the best verb. Each evening the chef or his assistant all of the sauces before they are served.",
+    "options": [
+      "tries",
+      "try"
+    ],
+    "correct_answer": "Each evening the chef or his assistant tries all of the sauces before they are served.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:09:27.378759+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-verb-with-compound-subjects-q13",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct verb – with compound subjects",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-verb-with-compound-subjects",
+    "question_index": 13,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the best verb. After such a long day of travel, neither Iluka nor Ronald it's wise to drive more tonight.",
+    "options": [
+      "think",
+      "thinks"
+    ],
+    "correct_answer": "thinks",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:09:36.349608+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-verb-with-compound-subjects-q14",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct verb – with compound subjects",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-verb-with-compound-subjects",
+    "question_index": 14,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the best verb. Whenever the four of us play darts, Audrey or Liam always",
+    "options": [
+      "wins",
+      "win"
+    ],
+    "correct_answer": "Whenever the four of us play darts, Audrey or Liam always wins",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:09:41.219654+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-verb-with-compound-subjects-q15",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct verb – with compound subjects",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-verb-with-compound-subjects",
+    "question_index": 15,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the best verb. your brother or your sisters know when your mother is returning home?",
+    "options": [
+      "Does",
+      "Do"
+    ],
+    "correct_answer": "Does your brother or your sisters know when your mother is returning home?",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:09:45.280383+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-verb-with-compound-subjects-q16",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct verb – with compound subjects",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-verb-with-compound-subjects",
+    "question_index": 16,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the best verb. On rainy days, Jason and his friends to invent new board games.",
+    "options": [
+      "likes",
+      "like"
+    ],
+    "correct_answer": "like",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:09:53.908572+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-verb-with-compound-subjects-q17",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct verb – with compound subjects",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-verb-with-compound-subjects",
+    "question_index": 17,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the best verb. According to Elizabeth, either a slice of key lime pie or lemon bars the perfect tart dessert.",
+    "options": [
+      "make",
+      "makes"
+    ],
+    "correct_answer": "According to Elizabeth, either a slice of key lime pie or lemon bars make the perfect tart dessert.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:09:58.126193+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-verb-with-compound-subjects-q18",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct verb – with compound subjects",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-verb-with-compound-subjects",
+    "question_index": 18,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the best verb. Neither my sisters nor Mitchell easily, but after watching the sad film, all of them were in tears.",
+    "options": [
+      "cry",
+      "cries"
+    ],
+    "correct_answer": "cries",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:10:06.394560+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-verb-with-compound-subjects-q19",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct verb – with compound subjects",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-verb-with-compound-subjects",
+    "question_index": 19,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the best verb. In Mr Collins's beautiful old house, small statues and porcelain vases the shelves of the living room and study.",
+    "options": [
+      "fill",
+      "fills"
+    ],
+    "correct_answer": "In Mr Collins's beautiful old house, small statues and porcelain vases fill the shelves of the living room and study.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:10:10.380347+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-verb-with-compound-subjects-q20",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct verb – with compound subjects",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-verb-with-compound-subjects",
+    "question_index": 20,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the best verb. Neither the president nor his advisers that a military strike would have a positive outcome.",
+    "options": [
+      "believe",
+      "believes"
+    ],
+    "correct_answer": "Neither the president nor his advisers believe that a military strike would have a positive outcome.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:10:14.972403+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-verb-with-compound-subjects-q21",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct verb – with compound subjects",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-verb-with-compound-subjects",
+    "question_index": 21,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the best verb. Before they make a big purchase, Braxton and his wife always all the options first.",
+    "options": [
+      "considers",
+      "consider"
+    ],
+    "correct_answer": "consider",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:10:23.753078+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-verb-with-compound-subjects-q22",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct verb – with compound subjects",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-verb-with-compound-subjects",
+    "question_index": 22,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the best verb. Sarah and her best friend to read magazines",
+    "options": [
+      "like",
+      "likes"
+    ],
+    "correct_answer": "Sarah and her best friend like to read magazines like The Monthly and Time.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:10:28.083768+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-verb-with-compound-subjects-q23",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct verb – with compound subjects",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-verb-with-compound-subjects",
+    "question_index": 23,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the best verb. Neither Philip nor his friends much science fiction, but they are willing to see Gravity with us because it got such good reviews.",
+    "options": [
+      "watch",
+      "watches"
+    ],
+    "correct_answer": "Neither Philip nor his friends watch much science fiction, but they are willing to see Gravity with us because it got such good reviews.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:10:32.480078+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-verb-with-compound-subjects-q24",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct verb – with compound subjects",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-verb-with-compound-subjects",
+    "question_index": 24,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the best verb. Neither he nor Conan with me that building more motorways would be the best solution for Melbourne's transportation problems.",
+    "options": [
+      "agree",
+      "agrees"
+    ],
+    "correct_answer": "agrees",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:10:41.842925+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-verb-with-compound-subjects-q25",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct verb – with compound subjects",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-verb-with-compound-subjects",
+    "question_index": 25,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the best verb. When we take our three dogs to the park, our black lab or our golden retriever usually the ball faster than our old English sheepdog.",
+    "options": [
+      "fetches",
+      "fetch"
+    ],
+    "correct_answer": "When we take our three dogs to the park, our black lab or our golden retriever usually fetches the ball faster than our old English sheepdog.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:10:46.012431+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-verb-with-compound-subjects-q26",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct verb – with compound subjects",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-verb-with-compound-subjects",
+    "question_index": 26,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the best verb. After reading the movie's reviews, neither Harper nor I to see it anymore.",
+    "options": [
+      "want",
+      "wants"
+    ],
+    "correct_answer": "After reading the movie's reviews, neither Harper nor I want to see it anymore.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:10:50.477232+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-verb-with-compound-subjects-q27",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct verb – with compound subjects",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-verb-with-compound-subjects",
+    "question_index": 27,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the best verb. It seems like Cranbrook Academy or Coledale High School the tennis tournament every year.",
+    "options": [
+      "win",
+      "wins"
+    ],
+    "correct_answer": "wins",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:10:59.525912+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-verb-with-compound-subjects-q28",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct verb – with compound subjects",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-verb-with-compound-subjects",
+    "question_index": 28,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the best verb. In the music video, the lead singer and his backup dancers bright orange suits with blue ties.",
+    "options": [
+      "wear",
+      "wears"
+    ],
+    "correct_answer": "In the music video, the lead singer and his backup dancers wear bright orange suits with blue ties.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:11:03.851308+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-verb-with-compound-subjects-q29",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct verb – with compound subjects",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-verb-with-compound-subjects",
+    "question_index": 29,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the best verb. Either Lionel Messi or his manager with reporters to answer questions after games.",
+    "options": [
+      "meets",
+      "meet"
+    ],
+    "correct_answer": "Either Lionel Messi or his manager meets with reporters to answer questions after games.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:11:08.891627+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-verb-with-compound-subjects-q30",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct verb – with compound subjects",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-verb-with-compound-subjects",
+    "question_index": 30,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the best verb. you and your sisters agree about most political issues?",
+    "options": [
+      "Do",
+      "Does"
+    ],
+    "correct_answer": "Do you and your sisters agree about most political issues?",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:11:13.607866+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-verb-with-compound-subjects-q31",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct verb – with compound subjects",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-verb-with-compound-subjects",
+    "question_index": 31,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the best verb. Depending on which of my relatives you ask, either Aunt Eva or Uncle Mitchell the best rhubarb pie.",
+    "options": [
+      "makes",
+      "make"
+    ],
+    "correct_answer": "Depending on which of my relatives you ask, either Aunt Eva or Uncle Mitchell makes the best rhubarb pie.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:11:18.215014+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-adjectives-and-adverbs-q1",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between adjectives and adverbs",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-adjectives-and-adverbs",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Choose the word that best describes or modifies the noun in bold. The soldier faced difficult challenges during his service in the military.",
+    "options": [
+      "courageous",
+      "courageously"
+    ],
+    "correct_answer": "The courageous soldier faced difficult challenges during his service in the military.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:12:06.875456+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-adjectives-and-adverbs-q2",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between adjectives and adverbs",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-adjectives-and-adverbs",
+    "question_index": 2,
+    "format": "multiple-choice",
+    "question_text": "Choose the word that best describes or modifies the adjective in bold. The plot of the story is extremely detailed and emotional.",
+    "options": [
+      "intensely",
+      "intense"
+    ],
+    "correct_answer": "The plot of the story is extremely detailed and intensely emotional.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:12:11.606770+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-adjectives-and-adverbs-q3",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between adjectives and adverbs",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-adjectives-and-adverbs",
+    "question_index": 3,
+    "format": "multiple-choice",
+    "question_text": "Choose the word that best describes or modifies the noun in bold. After a ten-mile hike, Jasper had cramps in his leg muscles.",
+    "options": [
+      "painful",
+      "painfully"
+    ],
+    "correct_answer": "After a ten-mile hike, Jasper had painful cramps in his leg muscles.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:12:15.977854+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-adjectives-and-adverbs-q4",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between adjectives and adverbs",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-adjectives-and-adverbs",
+    "question_index": 4,
+    "format": "multiple-choice",
+    "question_text": "Choose the word that best describes or modifies the verb in bold. Mayor Walker signed off on the committee's plan to fund the construction of a new bridge.",
+    "options": [
+      "readily",
+      "ready"
+    ],
+    "correct_answer": "Mayor Walker readily signed off on the committee's plan to fund the construction of a new bridge.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:12:20.307155+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-adjectives-and-adverbs-q5",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between adjectives and adverbs",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-adjectives-and-adverbs",
+    "question_index": 5,
+    "format": "multiple-choice",
+    "question_text": "Choose the word that best describes or modifies the adjective in bold. When Aiden visited New Orleans, he heard an talented trumpeter playing in the French Quarter.",
+    "options": [
+      "amazingly",
+      "amazing"
+    ],
+    "correct_answer": "When Aiden visited New Orleans, he heard an amazingly talented trumpeter playing in the French Quarter.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:12:24.502185+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-adjectives-and-adverbs-q6",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between adjectives and adverbs",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-adjectives-and-adverbs",
+    "question_index": 6,
+    "format": "multiple-choice",
+    "question_text": "Choose the word that best describes or modifies the adjective in bold. Kiera thought for a moment and then responded to Mrs Kim's question.",
+    "options": [
+      "intelligent",
+      "intelligently"
+    ],
+    "correct_answer": "intelligently",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:12:32.656269+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-adjectives-and-adverbs-q7",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between adjectives and adverbs",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-adjectives-and-adverbs",
+    "question_index": 7,
+    "format": "multiple-choice",
+    "question_text": "Choose the word that best describes or modifies the verb in bold. Baldwin and Gail sell their handmade crafts at markets around the region.",
+    "options": [
+      "Occasional",
+      "Sometimes"
+    ],
+    "correct_answer": "Sometimes",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:12:40.851070+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-adjectives-and-adverbs-q8",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between adjectives and adverbs",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-adjectives-and-adverbs",
+    "question_index": 8,
+    "format": "multiple-choice",
+    "question_text": "Choose the word that best describes or modifies the word in bold. I need to find a tutor who can help me with chemistry.",
+    "options": [
+      "nicely",
+      "friendly"
+    ],
+    "correct_answer": "friendly",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:12:49.214587+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-adjectives-and-adverbs-q9",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between adjectives and adverbs",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-adjectives-and-adverbs",
+    "question_index": 9,
+    "format": "multiple-choice",
+    "question_text": "Choose the word that best describes or modifies the word in bold. The recent snowfall in the mountains triggered several avalanches that proved to be",
+    "options": [
+      "devastatingly",
+      "devastating"
+    ],
+    "correct_answer": "devastating",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:12:57.439002+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-adjectives-and-adverbs-q10",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between adjectives and adverbs",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-adjectives-and-adverbs",
+    "question_index": 10,
+    "format": "multiple-choice",
+    "question_text": "Choose the word that best describes or modifies the word in bold. After their performance, the band members decided to start practising more on the weekends.",
+    "options": [
+      "poorly",
+      "poor"
+    ],
+    "correct_answer": "poor",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:13:05.697314+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-adjectives-and-adverbs-q11",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between adjectives and adverbs",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-adjectives-and-adverbs",
+    "question_index": 11,
+    "format": "multiple-choice",
+    "question_text": "Choose the word that best describes or modifies the word in bold. I thought the sculptor was quite in his design of the new statue for the park.",
+    "options": [
+      "creative",
+      "creatively"
+    ],
+    "correct_answer": "I thought the sculptor was quite creative in his design of the new statue for the park.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:13:09.937630+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-adjectives-and-adverbs-q12",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between adjectives and adverbs",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-adjectives-and-adverbs",
+    "question_index": 12,
+    "format": "multiple-choice",
+    "question_text": "Choose the word that best describes or modifies the word in bold. A relaxing day at the beach was a well-deserved change of pace for Matilda after an exhausting workweek.",
+    "options": [
+      "nicely",
+      "nice"
+    ],
+    "correct_answer": "nice",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:13:18.549838+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-adjectives-and-adverbs-q13",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between adjectives and adverbs",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-adjectives-and-adverbs",
+    "question_index": 13,
+    "format": "multiple-choice",
+    "question_text": "Choose the word that best describes or modifies the word in bold. Dandelions grow under a variety of conditions, making them a nuisance to most gardeners.",
+    "options": [
+      "well",
+      "good"
+    ],
+    "correct_answer": "Dandelions grow well under a variety of conditions, making them a nuisance to most gardeners.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:13:23.642373+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-adjectives-and-adverbs-q14",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between adjectives and adverbs",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-adjectives-and-adverbs",
+    "question_index": 14,
+    "format": "multiple-choice",
+    "question_text": "Choose the word that best describes or modifies the word in bold. Tori performed so during her audition that she was asked to sing a solo at the concert.",
+    "options": [
+      "well",
+      "good"
+    ],
+    "correct_answer": "Tori performed so well during her audition that she was asked to sing a solo at the concert.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:13:27.631397+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-adjectives-and-adverbs-q15",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between adjectives and adverbs",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-adjectives-and-adverbs",
+    "question_index": 15,
+    "format": "multiple-choice",
+    "question_text": "Choose the word that best describes or modifies the word in bold. The temperature has dropped several degrees, so it is really now!",
+    "options": [
+      "coldly",
+      "chilly"
+    ],
+    "correct_answer": "chilly",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:13:36.079615+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-adjectives-and-adverbs-q16",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between adjectives and adverbs",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-adjectives-and-adverbs",
+    "question_index": 16,
+    "format": "multiple-choice",
+    "question_text": "Choose the word that best describes or modifies the word in bold. The upgraded microphone is expensive, but Sebastian still thinks it's worth purchasing for his band.",
+    "options": [
+      "real",
+      "really"
+    ],
+    "correct_answer": "really",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:13:44.689849+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-adjectives-and-adverbs-q17",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between adjectives and adverbs",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-adjectives-and-adverbs",
+    "question_index": 17,
+    "format": "multiple-choice",
+    "question_text": "Choose the word that best describes or modifies the word in bold. Although Alice spoke in a harsh tone, Iluka responded to her",
+    "options": [
+      "nicely",
+      "nice"
+    ],
+    "correct_answer": "Although Alice spoke in a harsh tone, Iluka responded to her nicely",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:13:48.974615+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-adjectives-and-adverbs-q18",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between adjectives and adverbs",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-adjectives-and-adverbs",
+    "question_index": 18,
+    "format": "multiple-choice",
+    "question_text": "Choose the word that best describes or modifies the word in bold. I visit Maitland for work, but I rarely have time to explore the city for fun.",
+    "options": [
+      "frequently",
+      "frequent"
+    ],
+    "correct_answer": "I visit Maitland frequently for work, but I rarely have time to explore the city for fun.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:13:53.225058+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-adjectives-and-adverbs-q19",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between adjectives and adverbs",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-adjectives-and-adverbs",
+    "question_index": 19,
+    "format": "multiple-choice",
+    "question_text": "Choose the word that best describes or modifies the word in bold. Ms Harris estimated the cost to replace our old roof, promising to provide more detailed figures in a few days.",
+    "options": [
+      "roughly",
+      "rough"
+    ],
+    "correct_answer": "Ms Harris roughly estimated the cost to replace our old roof, promising to provide more detailed figures in a few days.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:13:58.003022+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-adjectives-and-adverbs-q20",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between adjectives and adverbs",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-adjectives-and-adverbs",
+    "question_index": 20,
+    "format": "multiple-choice",
+    "question_text": "Choose the word that best describes or modifies the word in bold. Mr Li is a great writer who has won numerous awards.",
+    "options": [
+      "really",
+      "real"
+    ],
+    "correct_answer": "Mr Li is a really great writer who has won numerous awards.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:14:02.340983+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-adjectives-and-adverbs-q21",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between adjectives and adverbs",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-adjectives-and-adverbs",
+    "question_index": 21,
+    "format": "multiple-choice",
+    "question_text": "Choose the word that best describes or modifies the word in bold. Mr Anderson accidentally backed into his mailbox and dented the bumper bar on his car.",
+    "options": [
+      "bad",
+      "badly"
+    ],
+    "correct_answer": "badly",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:14:11.082740+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-adjectives-and-adverbs-q22",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between adjectives and adverbs",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-adjectives-and-adverbs",
+    "question_index": 22,
+    "format": "multiple-choice",
+    "question_text": "Choose the word that best describes or modifies the word in bold. The paintings and collages at the Romare Bearden exhibit were breathtaking, but unfortunately they were lit",
+    "options": [
+      "poorly",
+      "poor"
+    ],
+    "correct_answer": "The paintings and collages at the Romare Bearden exhibit were breathtaking, but unfortunately they were lit poorly",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:14:15.097871+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-adjectives-and-adverbs-q23",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between adjectives and adverbs",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-adjectives-and-adverbs",
+    "question_index": 23,
+    "format": "multiple-choice",
+    "question_text": "Choose the word that best describes or modifies the word in bold. Watch the local weather forecast for updates about the storm.",
+    "options": [
+      "close",
+      "closely"
+    ],
+    "correct_answer": "closely",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:14:23.795497+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-adjectives-and-adverbs-q24",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between adjectives and adverbs",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-adjectives-and-adverbs",
+    "question_index": 24,
+    "format": "multiple-choice",
+    "question_text": "Choose the word that best describes or modifies the word in bold. The bright, glow of the full moon looked striking against the deep blackness of the night sky.",
+    "options": [
+      "radiantly",
+      "pearly"
+    ],
+    "correct_answer": "pearly",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:14:32.056659+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-adjectives-and-adverbs-q25",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between adjectives and adverbs",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-adjectives-and-adverbs",
+    "question_index": 25,
+    "format": "multiple-choice",
+    "question_text": "Choose the word that best describes or modifies the word in bold. The water level of Lake Burrendong decreased year after year.",
+    "options": [
+      "steadily",
+      "steady"
+    ],
+    "correct_answer": "The water level of Lake Burrendong decreased steadily year after year.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:14:36.348166+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-adjectives-and-adverbs-q26",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between adjectives and adverbs",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-adjectives-and-adverbs",
+    "question_index": 26,
+    "format": "multiple-choice",
+    "question_text": "Choose the word that best describes or modifies the word in bold. The department-store manager helped me select the perfect gift for my niece's sixteenth birthday.",
+    "options": [
+      "friendly",
+      "nicely"
+    ],
+    "correct_answer": "The friendly department-store manager helped me select the perfect gift for my niece's sixteenth birthday.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:14:40.797713+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-adjectives-and-adverbs-q27",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between adjectives and adverbs",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-adjectives-and-adverbs",
+    "question_index": 27,
+    "format": "multiple-choice",
+    "question_text": "Choose the word that best describes or modifies the word in bold. Please complete and submit your report in a manner next time.",
+    "options": [
+      "timely",
+      "quickly"
+    ],
+    "correct_answer": "Please complete and submit your report in a timely manner next time.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:14:44.974676+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-adjectives-and-adverbs-q28",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between adjectives and adverbs",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-adjectives-and-adverbs",
+    "question_index": 28,
+    "format": "multiple-choice",
+    "question_text": "Choose the word that best describes or modifies the word in bold. To make copies of my sketches, I place a sheet of paper over each one and trace the lines carefully.",
+    "options": [
+      "very",
+      "real"
+    ],
+    "correct_answer": "To make copies of my sketches, I place a sheet of paper over each one and trace the lines very carefully.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:14:49.179343+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-adjectives-and-adverbs-q29",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between adjectives and adverbs",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-adjectives-and-adverbs",
+    "question_index": 29,
+    "format": "multiple-choice",
+    "question_text": "Choose the word that best describes or modifies the word in bold. Harper Lee's novel To Kill a Mockingbird was written and received critical acclaim upon its publication.",
+    "options": [
+      "terrifically",
+      "terrific"
+    ],
+    "correct_answer": "Harper Lee's novel To Kill a Mockingbird was written terrifically and received critical acclaim upon its publication.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:14:53.766015+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-adjectives-and-adverbs-q30",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between adjectives and adverbs",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-adjectives-and-adverbs",
+    "question_index": 30,
+    "format": "multiple-choice",
+    "question_text": "Choose the word that best describes or modifies the word in bold. The builders need to rent a bulldozer to move all the dirt and rocks on the property.",
+    "options": [
+      "probably",
+      "probable"
+    ],
+    "correct_answer": "The builders probably need to rent a bulldozer to move all the dirt and rocks on the property.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:14:58.233975+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-adjectives-and-adverbs-q31",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between adjectives and adverbs",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-adjectives-and-adverbs",
+    "question_index": 31,
+    "format": "multiple-choice",
+    "question_text": "Choose the word that best describes or modifies the word in bold. Zihao and Rita, who have danced together for only a few months, performed remarkably in the competition.",
+    "options": [
+      "good",
+      "well"
+    ],
+    "correct_answer": "well",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:15:07.638302+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-adjectives-and-adverbs-q32",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between adjectives and adverbs",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-adjectives-and-adverbs",
+    "question_index": 32,
+    "format": "multiple-choice",
+    "question_text": "Choose the word that best describes or modifies the word in bold. The bride received a necklace made of pearls as a wedding gift from her mother.",
+    "options": [
+      "really",
+      "real"
+    ],
+    "correct_answer": "real",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:15:16.406245+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-adjectives-and-adverbs-q33",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between adjectives and adverbs",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-adjectives-and-adverbs",
+    "question_index": 33,
+    "format": "multiple-choice",
+    "question_text": "Choose the word that best describes or modifies the word in bold. Our athletics team competed against Longford High School in the relay race last Saturday.",
+    "options": [
+      "well",
+      "good"
+    ],
+    "correct_answer": "Our athletics team competed well against Longford High School in the relay race last Saturday.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:15:20.209266+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-adjectives-and-adverbs-q34",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between adjectives and adverbs",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-adjectives-and-adverbs",
+    "question_index": 34,
+    "format": "multiple-choice",
+    "question_text": "Choose the word that best describes or modifies the word in bold. I accepted Sabrina's offer to help move my furniture into my new home.",
+    "options": [
+      "glad",
+      "gladly"
+    ],
+    "correct_answer": "gladly",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:15:28.563621+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-adjectives-and-adverbs-q35",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between adjectives and adverbs",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-adjectives-and-adverbs",
+    "question_index": 35,
+    "format": "multiple-choice",
+    "question_text": "Choose the word that best describes or modifies the word in bold. Although Ms Edwards was worried, her guests thought that the party was",
+    "options": [
+      "nicely",
+      "lovely"
+    ],
+    "correct_answer": "lovely",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:15:36.690747+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-adjectives-and-adverbs-q36",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between adjectives and adverbs",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-adjectives-and-adverbs",
+    "question_index": 36,
+    "format": "multiple-choice",
+    "question_text": "Choose the word that best describes or modifies the word in bold. My favourite pyjamas fit around my waist and keep me warm.",
+    "options": [
+      "snugly",
+      "snug"
+    ],
+    "correct_answer": "My favourite pyjamas fit snugly around my waist and keep me warm.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:15:40.592038+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-adjectives-and-adverbs-q37",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between adjectives and adverbs",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-adjectives-and-adverbs",
+    "question_index": 37,
+    "format": "multiple-choice",
+    "question_text": "Choose the word that best describes or modifies the word in bold. Deborah said that her many years of sales experience prepared her for her new job in fundraising.",
+    "options": [
+      "well",
+      "good"
+    ],
+    "correct_answer": "Deborah said that her many years of sales experience prepared her well for her new job in fundraising.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:15:45.413751+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-adjectives-and-adverbs-q38",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between adjectives and adverbs",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-adjectives-and-adverbs",
+    "question_index": 38,
+    "format": "multiple-choice",
+    "question_text": "Choose the word that best describes or modifies the word in bold. The new father stared at his infant daughter as he rocked her in his arms.",
+    "options": [
+      "lovingly",
+      "lovely"
+    ],
+    "correct_answer": "The new father stared lovingly at his infant daughter as he rocked her in his arms.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:15:50.280426+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-adjectives-and-adverbs-q39",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between adjectives and adverbs",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-adjectives-and-adverbs",
+    "question_index": 39,
+    "format": "multiple-choice",
+    "question_text": "Choose the word that best describes or modifies the word in bold. Doctors recommend a healthy diet and regular exercise to keep your mind",
+    "options": [
+      "sharp",
+      "sharply"
+    ],
+    "correct_answer": "Doctors recommend a healthy diet and regular exercise to keep your mind sharp",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:17:40.408436+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-adjectives-and-adverbs-q40",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between adjectives and adverbs",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-adjectives-and-adverbs",
+    "question_index": 40,
+    "format": "multiple-choice",
+    "question_text": "Choose the word that best describes or modifies the word in bold. Exhausted after his long day, Tau left his office and proceeded home.",
+    "options": [
+      "silently",
+      "silent"
+    ],
+    "correct_answer": "Exhausted after his long day, Tau silently left his office and proceeded home.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:17:44.756244+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-choose-between-adjectives-and-adverbs-q41",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Choose between adjectives and adverbs",
+    "skill_url": "https://au.ixl.com/english/year-8/choose-between-adjectives-and-adverbs",
+    "question_index": 41,
+    "format": "multiple-choice",
+    "question_text": "Choose the word that best describes or modifies the word in bold. Although he is a highly respected actor, Liam Jones's performance in the play was bad.",
+    "options": [
+      "surprisingly",
+      "surprising"
+    ],
+    "correct_answer": "Although he is a highly respected actor, Liam Jones's performance in the play was surprisingly bad.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:17:48.817408+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-pair-of-correlative-conjunctions-q1",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct pair of correlative conjunctions",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-pair-of-correlative-conjunctions",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the better correlative conjunctions. Bottlenose dolphins communicate with each other using body language sound. They leap in the air, slap their tails on the water's surface and butt their heads together. They also whistle and produce high-frequency clicking sounds.",
+    "options": [
+      "both . . . and",
+      "neither . . . nor"
+    ],
+    "correct_answer": "Bottlenose dolphins communicate with each other using both body language and sound. They leap in the air, slap their tails on the water's surface and butt their heads together. They also whistle and produce high-frequency clicking sounds.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:18:20.357952+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-pair-of-correlative-conjunctions-q2",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct pair of correlative conjunctions",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-pair-of-correlative-conjunctions",
+    "question_index": 2,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the better correlative conjunctions. Archie led the attack in the basketball game, scoring twenty-seven points making twelve assists.",
+    "options": [
+      "not only . . . but also",
+      "either . . . or"
+    ],
+    "correct_answer": "Archie led the attack in the basketball game, not only scoring twenty-seven points but also making twelve assists.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:18:24.503934+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-pair-of-correlative-conjunctions-q3",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct pair of correlative conjunctions",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-pair-of-correlative-conjunctions",
+    "question_index": 3,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the better correlative conjunctions. The sting of the box jellyfish is extremely painful deadly. The venom of this sea creature is considered to be one of the most dangerous in the world.",
+    "options": [
+      "neither . . . nor",
+      "both . . . and"
+    ],
+    "correct_answer": "both . . . and",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:18:33.003894+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-pair-of-correlative-conjunctions-q4",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct pair of correlative conjunctions",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-pair-of-correlative-conjunctions",
+    "question_index": 4,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the better correlative conjunctions. In Kathakali, a classical dance of southwestern India, men and boys traditionally perform the male the female roles in the dance.",
+    "options": [
+      "neither . . . nor",
+      "both . . . and"
+    ],
+    "correct_answer": "both . . . and",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:18:41.304924+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-pair-of-correlative-conjunctions-q5",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct pair of correlative conjunctions",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-pair-of-correlative-conjunctions",
+    "question_index": 5,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the better correlative conjunctions. Ms Harris is known for her limited-edition screen prints and is active in the screen-printing community. She hosts screen printing workshops at her home collaborates with other local artists.",
+    "options": [
+      "neither . . . nor",
+      "not only . . . but also"
+    ],
+    "correct_answer": "not only . . . but also",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:18:49.488880+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-pair-of-correlative-conjunctions-q6",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct pair of correlative conjunctions",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-pair-of-correlative-conjunctions",
+    "question_index": 6,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the better correlative conjunctions. NASA scientists believe that Europa, one of Jupiter's four moons, is covered with a thick layer of ice. there's liquid water beneath the ice, life may exist on Europa.",
+    "options": [
+      "If . . . then",
+      "Either . . . or"
+    ],
+    "correct_answer": "NASA scientists believe that Europa, one of Jupiter's four moons, is covered with a thick layer of ice. If there's liquid water beneath the ice, then life may exist on Europa.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:18:53.696907+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-pair-of-correlative-conjunctions-q7",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct pair of correlative conjunctions",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-pair-of-correlative-conjunctions",
+    "question_index": 7,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the better correlative conjunctions. you flip a coin one hundred times, statistically it should come up heads fifty times. Any other distribution can be attributed to random chance or to an unfair coin.",
+    "options": [
+      "Either . . . or",
+      "If . . . then"
+    ],
+    "correct_answer": "If . . . then",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:19:02.262560+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-pair-of-correlative-conjunctions-q8",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct pair of correlative conjunctions",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-pair-of-correlative-conjunctions",
+    "question_index": 8,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the better correlative conjunctions. Most of the coins in Elliot's extensive collection are silver, but some haven't been identified. Elliot can't tell they're gold they're brass.",
+    "options": [
+      "whether . . . or",
+      "if . . . then"
+    ],
+    "correct_answer": "Most of the coins in Elliot's extensive collection are silver, but some haven't been identified. Elliot can't tell whether they're gold or they're brass.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:19:06.606724+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-pair-of-correlative-conjunctions-q9",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct pair of correlative conjunctions",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-pair-of-correlative-conjunctions",
+    "question_index": 9,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the better correlative conjunctions. Some plants, including certain eucalyptus populations, actually require fire for their seeds to germinate. the heat of a fire melts the resin that encases the seeds, the seeds are released and able to sprout.",
+    "options": [
+      "Neither . . . nor",
+      "If . . . then"
+    ],
+    "correct_answer": "If . . . then",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:19:14.643412+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-pair-of-correlative-conjunctions-q10",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct pair of correlative conjunctions",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-pair-of-correlative-conjunctions",
+    "question_index": 10,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the better correlative conjunctions. Most vertebrates can perceive the same five flavours that humans can: bitter, salty, sour, sweet and umami. However, genetic research indicates that whales dolphins are unable to taste any flavour other than salty.",
+    "options": [
+      "either . . . or",
+      "both . . . and"
+    ],
+    "correct_answer": "both . . . and",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:19:23.107176+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-pair-of-correlative-conjunctions-q11",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct pair of correlative conjunctions",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-pair-of-correlative-conjunctions",
+    "question_index": 11,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the better correlative conjunctions. This month's cover of Wildlife Gazette will feature one reader-submitted photograph; the selection committee will choose the photograph of a humpback whale the one of a yawning leopard.",
+    "options": [
+      "either . . . or",
+      "not only . . . but also"
+    ],
+    "correct_answer": "This month's cover of Wildlife Gazette will feature one reader-submitted photograph; the selection committee will choose either the photograph of a humpback whale or the one of a yawning leopard.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:19:27.188692+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-pair-of-correlative-conjunctions-q12",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct pair of correlative conjunctions",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-pair-of-correlative-conjunctions",
+    "question_index": 12,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the better correlative conjunctions. If you place an egg in a bowl of water, you can easily tell it's fresh it's rotten: fresh eggs will sink to the bottom, and bad eggs will float to the surface.",
+    "options": [
+      "whether . . . or",
+      "either . . . or"
+    ],
+    "correct_answer": "If you place an egg in a bowl of water, you can easily tell whether it's fresh or it's rotten: fresh eggs will sink to the bottom, and bad eggs will float to the surface.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:19:31.286863+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-pair-of-correlative-conjunctions-q13",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct pair of correlative conjunctions",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-pair-of-correlative-conjunctions",
+    "question_index": 13,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the better correlative conjunctions. A study conducted in 2013 found that people spend a lot of time browsing social networking sites, they tend to feel more envious of others.",
+    "options": [
+      "if . . . then",
+      "whether . . . or"
+    ],
+    "correct_answer": "A study conducted in 2013 found that if people spend a lot of time browsing social networking sites, then they tend to feel more envious of others.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:19:35.217345+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-pair-of-correlative-conjunctions-q14",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct pair of correlative conjunctions",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-pair-of-correlative-conjunctions",
+    "question_index": 14,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the better correlative conjunctions. If interplanetary tourism ever becomes possible, I would love to visit the rings of Saturn the Great Red Spot on Jupiter.",
+    "options": [
+      "either . . . or",
+      "neither . . . nor"
+    ],
+    "correct_answer": "If interplanetary tourism ever becomes possible, I would love to visit either the rings of Saturn or the Great Red Spot on Jupiter.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:19:39.256138+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-pair-of-correlative-conjunctions-q15",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct pair of correlative conjunctions",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-pair-of-correlative-conjunctions",
+    "question_index": 15,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the better correlative conjunctions. In my opinion, the chocolate fig bars the chocolate paradise brownies taste better than the lemon pomegranate cupcakes, but that's because I'm a huge fan of chocolate.",
+    "options": [
+      "neither . . . nor",
+      "both . . . and"
+    ],
+    "correct_answer": "both . . . and",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:19:47.595007+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-pair-of-correlative-conjunctions-q16",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct pair of correlative conjunctions",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-pair-of-correlative-conjunctions",
+    "question_index": 16,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the better correlative conjunctions. Styx is the name of a river in the underworld in Roman mythology the name of one of Pluto's moons. In classical Roman mythology, Pluto ruled the underworld.",
+    "options": [
+      "not only . . . but also",
+      "either . . . or"
+    ],
+    "correct_answer": "Styx is not only the name of a river in the underworld in Roman mythology but also the name of one of Pluto's moons. In classical Roman mythology, Pluto ruled the underworld.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:19:51.712124+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-pair-of-correlative-conjunctions-q17",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct pair of correlative conjunctions",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-pair-of-correlative-conjunctions",
+    "question_index": 17,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the better correlative conjunctions. The influenza virus H5N1 is transmitted from infected birds to humans. the virus evolved into a strain that could be transmitted between humans, it could quickly spread worldwide.",
+    "options": [
+      "If . . . then",
+      "Either . . . or"
+    ],
+    "correct_answer": "The influenza virus H5N1 is transmitted from infected birds to humans. If the virus evolved into a strain that could be transmitted between humans, then it could quickly spread worldwide.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:19:55.725064+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-pair-of-correlative-conjunctions-q18",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct pair of correlative conjunctions",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-pair-of-correlative-conjunctions",
+    "question_index": 18,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the better correlative conjunctions. The thorny covering of the durian—a large fruit shaped like a rugby ball—can be opened up by stepping on the fruit with enough force to crack the husk by digging into it with a sharp knife.",
+    "options": [
+      "either . . . or",
+      "neither . . . nor"
+    ],
+    "correct_answer": "The thorny covering of the durian—a large fruit shaped like a rugby ball—can be opened up either by stepping on the fruit with enough force to crack the husk or by digging into it with a sharp knife.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:19:59.668625+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-pair-of-correlative-conjunctions-q19",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct pair of correlative conjunctions",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-pair-of-correlative-conjunctions",
+    "question_index": 19,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the better correlative conjunctions. Urban agriculture is flourishing in cities around Australia. City dwellers are producing crops raising livestock. Many once-vacant blocks are now home to herb and vegetable gardens as well as goats, chickens, and beehives.",
+    "options": [
+      "not only . . . but also",
+      "neither . . . nor"
+    ],
+    "correct_answer": "Urban agriculture is flourishing in cities around Australia. City dwellers are not only producing crops but also raising livestock. Many once-vacant blocks are now home to herb and vegetable gardens as well as goats, chickens, and beehives.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:20:03.700135+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-pair-of-correlative-conjunctions-q20",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct pair of correlative conjunctions",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-pair-of-correlative-conjunctions",
+    "question_index": 20,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the better correlative conjunctions. The most impressive astronomical display I've ever seen was a meteor shower the aurora borealis.",
+    "options": [
+      "both . . . and",
+      "either . . . or"
+    ],
+    "correct_answer": "either . . . or",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:20:12.220480+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-pair-of-correlative-conjunctions-q21",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct pair of correlative conjunctions",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-pair-of-correlative-conjunctions",
+    "question_index": 21,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the better correlative conjunctions. In 1957, the Soviet Union launched the satellite Sputnik 1, demonstrating Soviet superiority in the field of space exploration the breadth of Soviet large-missile capability.",
+    "options": [
+      "not only . . . but also",
+      "either . . . or"
+    ],
+    "correct_answer": "In 1957, the Soviet Union launched the satellite Sputnik 1, demonstrating not only Soviet superiority in the field of space exploration but also the breadth of Soviet large-missile capability.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:20:16.505055+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-pair-of-correlative-conjunctions-q22",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct pair of correlative conjunctions",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-pair-of-correlative-conjunctions",
+    "question_index": 22,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the better correlative conjunctions. The Kurt Vonnegut Memorial Library in Indianapolis in the United States features the first-edition prints of all of Vonnegut's novels the very typewriter he used to write his novels, along with other memorabilia.",
+    "options": [
+      "not only . . . but also",
+      "neither . . . nor"
+    ],
+    "correct_answer": "The Kurt Vonnegut Memorial Library in Indianapolis in the United States features not only the first-edition prints of all of Vonnegut's novels but also the very typewriter he used to write his novels, along with other memorabilia.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:20:20.852823+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-pair-of-correlative-conjunctions-q23",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct pair of correlative conjunctions",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-pair-of-correlative-conjunctions",
+    "question_index": 23,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the better correlative conjunctions. A new prototype for a toothpaste tube collapses like an accordion, forcing every bit of toothpaste out. you've ever struggled to squeeze out the last bit of toothpaste, you might be interested in this new design.",
+    "options": [
+      "If . . . then",
+      "Whether . . . or"
+    ],
+    "correct_answer": "A new prototype for a toothpaste tube collapses like an accordion, forcing every bit of toothpaste out. If you've ever struggled to squeeze out the last bit of toothpaste, then you might be interested in this new design.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:20:25.155385+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-pair-of-correlative-conjunctions-q24",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct pair of correlative conjunctions",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-pair-of-correlative-conjunctions",
+    "question_index": 24,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the better correlative conjunctions. The Kuril Islands have been a source of conflict between Russia and Japan for many years. As the dispute continues, it remains to be seen Russia Japan will maintain control of the four islands in question.",
+    "options": [
+      "whether . . . or",
+      "if . . . then"
+    ],
+    "correct_answer": "The Kuril Islands have been a source of conflict between Russia and Japan for many years. As the dispute continues, it remains to be seen whether Russia or Japan will maintain control of the four islands in question.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:20:29.335728+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-pair-of-correlative-conjunctions-q25",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct pair of correlative conjunctions",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-pair-of-correlative-conjunctions",
+    "question_index": 25,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the better correlative conjunctions. Deadly nightshade is a lethal plant that should be eaten touched. When eaten, the plant causes paralysis; when touched, the leaves may irritate the skin.",
+    "options": [
+      "not only . . . but also",
+      "neither . . . nor"
+    ],
+    "correct_answer": "neither . . . nor",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:20:38.204431+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-pair-of-correlative-conjunctions-q26",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct pair of correlative conjunctions",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-pair-of-correlative-conjunctions",
+    "question_index": 26,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the better correlative conjunctions. According to the museum curator, the one-day reception for the opening of the exhibit will take place on Tuesday Wednesday.",
+    "options": [
+      "not only . . . but also",
+      "either . . . or"
+    ],
+    "correct_answer": "either . . . or",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:20:46.837646+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-pair-of-correlative-conjunctions-q27",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct pair of correlative conjunctions",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-pair-of-correlative-conjunctions",
+    "question_index": 27,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the better correlative conjunctions. Several theories emerged after aviator Amelia Earhart and navigator Fred Noonan disappeared over the Pacific in 1937. Experts haven't yet determined they crashed in the sea they landed on an uninhabited island and died there.",
+    "options": [
+      "whether . . . or",
+      "if . . . then"
+    ],
+    "correct_answer": "Several theories emerged after aviator Amelia Earhart and navigator Fred Noonan disappeared over the Pacific in 1937. Experts haven't yet determined whether they crashed in the sea or they landed on an uninhabited island and died there.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:20:51.120828+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-pair-of-correlative-conjunctions-q28",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct pair of correlative conjunctions",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-pair-of-correlative-conjunctions",
+    "question_index": 28,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the better correlative conjunctions. Though threats and tensions ran high during the Cold War, the United States the Soviet Union ever engaged in any direct, large-scale fighting with each other during the multi-decade conflict.",
+    "options": [
+      "neither . . . nor",
+      "both . . . and"
+    ],
+    "correct_answer": "Though threats and tensions ran high during the Cold War, neither the United States nor the Soviet Union ever engaged in any direct, large-scale fighting with each other during the multi-decade conflict.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:20:55.533651+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-pair-of-correlative-conjunctions-q29",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct pair of correlative conjunctions",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-pair-of-correlative-conjunctions",
+    "question_index": 29,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the better correlative conjunctions. the bold wallpaper the vivid lime-green curtains lend an artistic flair to your living room.",
+    "options": [
+      "Neither . . . nor",
+      "Both . . . and"
+    ],
+    "correct_answer": "Both . . . and",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:21:04.094417+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-pair-of-correlative-conjunctions-q30",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct pair of correlative conjunctions",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-pair-of-correlative-conjunctions",
+    "question_index": 30,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the better correlative conjunctions. rooibos tea (known as 'red tea') herbal teas such as mint are actually teas; they are tisanes, which are beverages made from water infused with herbs or spices.",
+    "options": [
+      "Both . . . and",
+      "Neither . . . nor"
+    ],
+    "correct_answer": "Neither . . . nor",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:21:12.528457+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-pair-of-correlative-conjunctions-q31",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct pair of correlative conjunctions",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-pair-of-correlative-conjunctions",
+    "question_index": 31,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the better correlative conjunctions. Biologist Rachel Carson's famous book Silent Spring, published in 1962, was a best seller was responsible for highlighting the long-term effects of environmental pollution.",
+    "options": [
+      "not only . . . but also",
+      "either . . . or"
+    ],
+    "correct_answer": "Biologist Rachel Carson's famous book Silent Spring, published in 1962, not only was a best seller but also was responsible for highlighting the long-term effects of environmental pollution.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:21:16.890471+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-pair-of-correlative-conjunctions-q32",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct pair of correlative conjunctions",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-pair-of-correlative-conjunctions",
+    "question_index": 32,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the better correlative conjunctions. For the guacamole, we need avocados, limes, salt and garlic. we don't have any limes, we could try substituting lemons.",
+    "options": [
+      "Either . . . or",
+      "If . . . then"
+    ],
+    "correct_answer": "If . . . then",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:21:25.423366+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-pair-of-correlative-conjunctions-q33",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct pair of correlative conjunctions",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-pair-of-correlative-conjunctions",
+    "question_index": 33,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the better correlative conjunctions. Novelist and short-story writer Sherwood Anderson inspired William Faulkner Ernest Hemingway, and he helped the two writers get published.",
+    "options": [
+      "neither . . . nor",
+      "both . . . and"
+    ],
+    "correct_answer": "both . . . and",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:21:33.758921+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-pair-of-correlative-conjunctions-q34",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct pair of correlative conjunctions",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-pair-of-correlative-conjunctions",
+    "question_index": 34,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the better correlative conjunctions. We didn't know a guinea pig a rabbit would be the most appropriate pet for our family, but we were certain we didn't want a goldfish.",
+    "options": [
+      "whether . . . or",
+      "either . . . or"
+    ],
+    "correct_answer": "We didn't know whether a guinea pig or a rabbit would be the most appropriate pet for our family, but we were certain we didn't want a goldfish.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:21:37.754607+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-pair-of-correlative-conjunctions-q35",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct pair of correlative conjunctions",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-pair-of-correlative-conjunctions",
+    "question_index": 35,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the better correlative conjunctions. On Earth, the most abundant greenhouse gas is carbon dioxide—produced by animals as they methane, which is produced through the decomposition of organic material.",
+    "options": [
+      "not only . . . but also",
+      "either . . . or"
+    ],
+    "correct_answer": "either . . . or",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:21:46.516986+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-pair-of-correlative-conjunctions-q36",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct pair of correlative conjunctions",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-pair-of-correlative-conjunctions",
+    "question_index": 36,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the better correlative conjunctions. Britney plans to wear her new ankle boots her leather sandals to the festivities on Saturday.",
+    "options": [
+      "either . . . or",
+      "both . . . and"
+    ],
+    "correct_answer": "Britney plans to wear either her new ankle boots or her leather sandals to the festivities on Saturday.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:21:50.483433+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-pair-of-correlative-conjunctions-q37",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct pair of correlative conjunctions",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-pair-of-correlative-conjunctions",
+    "question_index": 37,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the better correlative conjunctions. When sulfuric acid—a chemical released when fossil fuels like coal and oil are burned—combines with water particles, it forms acid rain, which causes damage to living organisms to man-made structures like buildings and roads.",
+    "options": [
+      "both . . . and",
+      "neither . . . nor"
+    ],
+    "correct_answer": "When sulfuric acid—a chemical released when fossil fuels like coal and oil are burned—combines with water particles, it forms acid rain, which causes damage both to living organisms and to man-made structures like buildings and roads.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:21:54.940998+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-pair-of-correlative-conjunctions-q38",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct pair of correlative conjunctions",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-pair-of-correlative-conjunctions",
+    "question_index": 38,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the better correlative conjunctions. scientists succeed in growing meat from animal stem cells, perhaps livestock will no longer be raised in factory farm conditions.",
+    "options": [
+      "Either . . . or",
+      "If . . . then"
+    ],
+    "correct_answer": "If . . . then",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:22:04.322770+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-pair-of-correlative-conjunctions-q39",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct pair of correlative conjunctions",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-pair-of-correlative-conjunctions",
+    "question_index": 39,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the better correlative conjunctions. I don't remember which, but coffee crude oil is the most commonly traded commodity in the world.",
+    "options": [
+      "either . . . or",
+      "neither . . . nor"
+    ],
+    "correct_answer": "I don't remember which, but either coffee or crude oil is the most commonly traded commodity in the world.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:22:10.094807+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-pair-of-correlative-conjunctions-q40",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct pair of correlative conjunctions",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-pair-of-correlative-conjunctions",
+    "question_index": 40,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the better correlative conjunctions. Many experts have tried to explain the function of dreams. you're interested in dream analysis, you might want to read psychologist Carl Jung's theories.",
+    "options": [
+      "Neither . . . nor",
+      "If . . . then"
+    ],
+    "correct_answer": "If . . . then",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:22:18.056306+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-pair-of-correlative-conjunctions-q41",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct pair of correlative conjunctions",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-pair-of-correlative-conjunctions",
+    "question_index": 41,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the better correlative conjunctions. Shel Silverstein was a celebrated author and illustrator a songwriter. Silverstein wrote 'A Boy Named Sue', made famous by country singer Johnny Cash.",
+    "options": [
+      "not only . . . but also",
+      "either . . . or"
+    ],
+    "correct_answer": "Shel Silverstein was not only a celebrated author and illustrator but also a songwriter. Silverstein wrote 'A Boy Named Sue', made famous by country singer Johnny Cash.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:22:22.147243+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-pair-of-correlative-conjunctions-q42",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct pair of correlative conjunctions",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-pair-of-correlative-conjunctions",
+    "question_index": 42,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the better correlative conjunctions. The International Astronomical Union has established criteria that help astronomers as they determine planet dwarf planet is the correct classification for a given celestial body.",
+    "options": [
+      "whether . . . or",
+      "neither . . . nor"
+    ],
+    "correct_answer": "The International Astronomical Union has established criteria that help astronomers as they determine whether planet or dwarf planet is the correct classification for a given celestial body.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:22:26.450321+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-pair-of-correlative-conjunctions-q43",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct pair of correlative conjunctions",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-pair-of-correlative-conjunctions",
+    "question_index": 43,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the better correlative conjunctions. you're familiar with cubism, an art movement that developed in the early part of the twentieth century, you've probably heard of Pablo Picasso.",
+    "options": [
+      "Whether . . . or",
+      "If . . . then"
+    ],
+    "correct_answer": "If . . . then",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:22:35.132216+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-pair-of-correlative-conjunctions-q44",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct pair of correlative conjunctions",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-pair-of-correlative-conjunctions",
+    "question_index": 44,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the better correlative conjunctions. Learning algebra is useful because it allows you to make complicated calculations involving unknown variables prepares you for more advanced abstract thinking.",
+    "options": [
+      "neither . . . nor",
+      "not only . . . but also"
+    ],
+    "correct_answer": "not only . . . but also",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:22:43.826125+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-pair-of-correlative-conjunctions-q45",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct pair of correlative conjunctions",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-pair-of-correlative-conjunctions",
+    "question_index": 45,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the better correlative conjunctions. In 1931, Robert Louis Stevenson's Strange Case of Dr Jekyll and Mr Hyde Mary Wollstonecraft Shelley's Frankenstein were adapted into film versions.",
+    "options": [
+      "both . . . and",
+      "neither . . . nor"
+    ],
+    "correct_answer": "In 1931, both Robert Louis Stevenson's Strange Case of Dr Jekyll and Mr Hyde and Mary Wollstonecraft Shelley's Frankenstein were adapted into film versions.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:22:48.453494+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-english-year-8-use-the-correct-pair-of-correlative-conjunctions-q46",
+    "subject": "english",
+    "year": "year-8",
+    "skill_name": "Use the correct pair of correlative conjunctions",
+    "skill_url": "https://au.ixl.com/english/year-8/use-the-correct-pair-of-correlative-conjunctions",
+    "question_index": 46,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence with the better correlative conjunctions. In 1978, Soviet geologists discovered the Lykov family living alone in a primitive hut in the remote wilderness of Siberia. The Lykovs had lived with electricity running water for more than forty years.",
+    "options": [
+      "neither . . . nor",
+      "not only . . . but also"
+    ],
+    "correct_answer": "In 1978, Soviet geologists discovered the Lykov family living alone in a primitive hut in the remote wilderness of Siberia. The Lykovs had lived with neither electricity nor running water for more than forty years.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-13T17:22:53.091216+00:00",
+    "quiz_ready": true
   }
 ]

@@ -1,0 +1,77 @@
+name: IXL Scraper
+
+on:
+  schedule:
+    - cron: '0 2 * * *'   # runs daily at 2am UTC — adjust as needed
+  workflow_dispatch:       # lets you trigger it manually from GitHub UI
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        worker: [0, 1]     # runs worker 0 and worker 1 in parallel
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          playwright install chromium
+          playwright install-deps chromium
+
+      - name: Run setup (worker 0 only)
+        if: matrix.worker == 0
+        run: |
+          mkdir -p output/english/year-8/worker_0 output/english/year-8/worker_1
+          python3 -c "
+          import json, subprocess
+          result = subprocess.run(
+              ['python3','ixl_scraper_ui.py',
+               '--subject','english','--year','year-8',
+               '--username','${{ secrets.IXL_USERNAME }}',
+               '--password','${{ secrets.IXL_PASSWORD }}',
+               '--discover-only','--headless'],
+              capture_output=True, text=True
+          )
+          skills = json.loads([l[8:] for l in result.stdout.splitlines() if l.startswith('[SKILLS]')][0])
+          open('output/english/year-8/_batch_0.json','w').write(json.dumps(skills[::2]))
+          open('output/english/year-8/_batch_1.json','w').write(json.dumps(skills[1::2]))
+          "
+
+      - name: Upload batch files (worker 0 only)
+        if: matrix.worker == 0
+        uses: actions/upload-artifact@v4
+        with:
+          name: batch-files
+          path: output/english/year-8/_batch_*.json
+
+      - name: Wait for batch files (worker 1 only)
+        if: matrix.worker == 1
+        uses: actions/download-artifact@v4
+        with:
+          name: batch-files
+          path: output/english/year-8/
+
+      - name: Run worker ${{ matrix.worker }}
+        run: |
+          python3 ixl_scraper_ui.py \
+            --subject english \
+            --year year-8 \
+            --username "${{ secrets.IXL_USERNAME }}" \
+            --password "${{ secrets.IXL_PASSWORD }}" \
+            --output-dir "output/english/year-8/worker_${{ matrix.worker }}" \
+            --skills-file "output/english/year-8/_batch_${{ matrix.worker }}.json" \
+            --mcq-only \
+            --headless
+
+      - name: Upload results
+        uses: actions/upload-artifact@v4
+        with:
+          name: results-worker-${{ matrix.worker }}
+          path: output/
