@@ -97,6 +97,7 @@ def run():
         headless         = data.get('headless', True)
         selected_skills  = data.get('selected_skills', [])
         workers          = max(1, min(5, int(data.get('workers', 1))))
+        mcq_only         = bool(data.get('mcq_only', False))
 
         VALID_SUBJECTS = {'maths', 'english', 'science'}
         VALID_YEARS    = {
@@ -136,6 +137,8 @@ def run():
                 ]
                 if headless:
                     cmd.append('--headless')
+                if mcq_only:
+                    cmd.append('--mcq-only')
                 _procs.append(subprocess.Popen(
                     cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
                     text=True, bufsize=1
@@ -154,6 +157,8 @@ def run():
             ]
             if headless:
                 cmd.append('--headless')
+            if mcq_only:
+                cmd.append('--mcq-only')
             (output_dir / 'worker_0').mkdir(exist_ok=True)
             _procs = [subprocess.Popen(
                 cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT,
@@ -245,6 +250,8 @@ def stream():
                     if line.startswith('[DONE]'):
                         continue
                     if line.startswith('[SKIP]'):
+                        total_skipped += 1
+                    if line.startswith('[SKILL_SKIP]'):
                         total_skipped += 1
                     prefix = f'[W{wid + 1}] ' if n > 1 else ''
                     yield f'data: {prefix}{line}\n\n'

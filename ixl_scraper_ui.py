@@ -13,7 +13,7 @@ from pathlib import Path
 from datetime import datetime, timezone
 from playwright.sync_api import sync_playwright, TimeoutError as PWTimeout
 
-BASE_URL   = "https://uk.ixl.com"
+BASE_URL   = "https://au.ixl.com"
 LOGIN_URL  = f"{BASE_URL}/signin"
 
 SKIP_ALTS = {
@@ -66,6 +66,12 @@ def p_done(total_q, elapsed, skipped):
 
 def p_error(msg):
     print(f"[ERROR] {msg}", flush=True)
+
+def p_resume(skipped_count, total):
+    print(f"[RESUME] already_done={skipped_count} remaining={total - skipped_count} total={total}", flush=True)
+
+def p_skill_resume(name):
+    print(f"[SKILL_SKIP] {name} (checkpoint — already done)", flush=True)
 
 
 # ── Utilities ──────────────────────────────────────────────────────────────────
@@ -161,7 +167,12 @@ def get_skills(page, subject, year):
 # ── Interaction helpers ────────────────────────────────────────────────────────
 
 def click_crisp(page, label):
-    for b in page.query_selector_all("button.crisp-button"):
+    try:
+        buttons = page.query_selector_all("button.crisp-button")
+    except Exception:
+        # Page navigated away (e.g. correct MCQ answer auto-advanced)
+        return True
+    for b in buttons:
         if (b.inner_text() or "").strip() == label and b.bounding_box():
             try:
                 b.scroll_into_view_if_needed()
@@ -215,13 +226,41 @@ def extract_choices(page, qtype):
 
 
 def capture_answer(page, qtype):
-    """Submit a wrong answer and read the correct answer from .correct-answer."""
+    """Submit a wrong answer and read the correct answer from .correct-answer.
+
+    For MCQ: clicking the first tile may accidentally be correct, in which case
+    IXL shows no .correct-answer div. We detect this by reading the tile text
+    before clicking, then checking whether the question advanced without feedback.
+    If so, the tile we clicked was the correct answer.
+    """
+    clicked_tile_text = ""
+
     if "multiple-choice" in qtype:
         try:
-            page.locator(
+            tiles = page.query_selector_all(
                 "[class*='SelectableTile'][class*='MULTIPLE_CHOICE']"
                 ":not([class*='nonInteractive'])"
-            ).first.click(force=True, timeout=5000)
+            )
+            if tiles:
+                # Read the text of each tile upfront so we know what we clicked
+                tile_texts = []
+                for t in tiles:
+                    try:
+                        tile_texts.append(clean(t.inner_text()))
+                    except Exception:
+                        tile_texts.append("")
+
+                # Try to click the LAST tile — for 2-option questions this avoids
+                # the common pattern of the first option being correct.
+                target = tiles[-1]
+                clicked_tile_text = tile_texts[-1]
+                try:
+                    target.scroll_into_view_if_needed()
+                    target.click(force=True, timeout=5000)
+                except Exception:
+                    # Fallback to first tile
+                    tiles[0].click(force=True, timeout=5000)
+                    clicked_tile_text = tile_texts[0]
             time.sleep(0.4)
         except Exception:
             pass
@@ -248,6 +287,10 @@ def capture_answer(page, qtype):
                 if tile:
                     txt = clean(tile.inner_text())
                     correct = re.sub(r"^Correct answer,?\s*", "", txt).strip()
+                if not correct:
+                    # Strip "Correct answer" prefix from raw text
+                    raw = clean(ca.inner_text())
+                    correct = re.sub(r"^Correct answer,?\s*", "", raw).strip()
             else:
                 inp = ca.query_selector("input.fillIn")
                 if inp:
@@ -255,7 +298,11 @@ def capture_answer(page, qtype):
                 if not correct:
                     correct = clean(ca.inner_text())
     except Exception:
-        pass
+        # .correct-answer never appeared — we clicked the RIGHT answer.
+        # IXL advances automatically on correct answers, so the tile we
+        # clicked IS the correct answer.
+        if "multiple-choice" in qtype and clicked_tile_text:
+            correct = clicked_tile_text
 
     for label in ("Got it", "Next", "Continue", "OK"):
         if click_crisp(page, label):
@@ -335,11 +382,12 @@ def download_images(page, img_dir, session):
 
 # ── Skill scraper ──────────────────────────────────────────────────────────────
 
-def scrape_skill(page, skill, subject, year, max_questions, img_dir):
+def scrape_skill(page, skill, subject, year, max_questions, img_dir, mcq_only=False):
     """
     Scrape one skill. Returns (questions_list, skipped_count).
     Repeat-detection: stop when the same stem prefix appears twice.
     If max_questions > 0, also stop at that hard cap.
+    If mcq_only is True, skip any skill whose first question is not multiple-choice.
     """
     name = skill["name"]
     url  = skill["url"]
@@ -360,6 +408,10 @@ def scrape_skill(page, skill, subject, year, max_questions, img_dir):
 
     if should_skip(qtype):
         p_skip(qtype, name)
+        return [], 1
+
+    if mcq_only and qtype != "multiple-choice":
+        p_skip(f"{qtype} (not MCQ)", name)
         return [], 1
 
     try:
@@ -457,15 +509,18 @@ def scrape_skill(page, skill, subject, year, max_questions, img_dir):
 
 def main():
     parser = argparse.ArgumentParser(description="IXL Unified Scraper")
-    parser.add_argument("--subject",       required=True, choices=["maths","english","science"])
-    parser.add_argument("--year",          required=True)
-    parser.add_argument("--username",      required=True)
-    parser.add_argument("--password",      required=True)
-    parser.add_argument("--max-questions", type=int, default=0)
-    parser.add_argument("--output-dir",    default=None)
-    parser.add_argument("--skills-file",   default=None, help="JSON file with [{name,url}] list")
-    parser.add_argument("--discover-only", action="store_true", help="Login, list skills as JSON, exit")
-    parser.add_argument("--headless",      action="store_true")
+    parser.add_argument("--subject",         required=True, choices=["maths","english","science"])
+    parser.add_argument("--year",            required=True)
+    parser.add_argument("--username",        required=True)
+    parser.add_argument("--password",        required=True)
+    parser.add_argument("--max-questions",   type=int, default=0)
+    parser.add_argument("--output-dir",      default=None)
+    parser.add_argument("--skills-file",     default=None, help="JSON file with [{name,url}] list")
+    parser.add_argument("--discover-only",   action="store_true", help="Login, list skills as JSON, exit")
+    parser.add_argument("--headless",        action="store_true")
+    parser.add_argument("--mcq-only",        action="store_true", help="Skip non-multiple-choice skills")
+    parser.add_argument("--checkpoint-file", default=None,
+                        help="File tracking completed skill URLs for resume support (default: output-dir/checkpoint.txt)")
     args = parser.parse_args()
 
     if not args.discover_only and not args.output_dir:
@@ -492,7 +547,7 @@ def main():
                 "AppleWebKit/537.36 (KHTML, like Gecko) "
                 "Chrome/124.0.0.0 Safari/537.36"
             ),
-            locale="en-GB",
+            locale="en-AU",
             viewport={"width": 1280, "height": 900},
         )
         page = ctx.new_page()
@@ -523,26 +578,56 @@ def main():
                 browser.close()
                 sys.exit(1)
 
+        # ── Checkpoint / resume ───────────────────────────────────────────────
+        checkpoint_file = Path(args.checkpoint_file) if args.checkpoint_file \
+                          else output_dir / "checkpoint.txt"
+        completed_urls = set()
+        if checkpoint_file.exists():
+            completed_urls = {
+                line.strip() for line in
+                checkpoint_file.read_text(encoding="utf-8").splitlines()
+                if line.strip()
+            }
+        if completed_urls:
+            p_resume(len(completed_urls), len(skills))
+
+        # Load questions already saved from a previous interrupted run
+        existing_file = output_dir / "questions.json"
+        all_questions = []
+        if existing_file.exists() and completed_urls:
+            try:
+                all_questions = json.loads(existing_file.read_text(encoding="utf-8"))
+            except Exception:
+                all_questions = []
+
         p_start(args.subject, args.year, len(skills))
 
-        all_questions = []
         total_skipped = 0
         start_time = time.time()
 
         for i, skill in enumerate(skills, 1):
+            if skill["url"] in completed_urls:
+                p_skill_resume(skill["name"])
+                continue
+
             p_skill(i, len(skills), skill["name"])
             qs, skipped = scrape_skill(
                 page, skill, args.subject, args.year,
-                args.max_questions, img_dir
+                args.max_questions, img_dir,
+                mcq_only=args.mcq_only,
             )
             total_skipped += skipped
             all_questions.extend(qs)
             p_skill_done(len(qs))
 
-            (output_dir / "questions.json").write_text(
+            # Mark skill complete in checkpoint before saving questions,
+            # so a crash mid-save doesn't mark it done without data.
+            existing_file.write_text(
                 json.dumps(all_questions, indent=2, ensure_ascii=False),
                 encoding="utf-8"
             )
+            with open(checkpoint_file, "a", encoding="utf-8") as cf:
+                cf.write(skill["url"] + "\n")
 
         browser.close()
 
