@@ -1,0 +1,263 @@
+[
+  {
+    "question_id": "ixl-science-year-6-identify-laboratory-tools-q1",
+    "subject": "science",
+    "year": "year-6",
+    "skill_name": "Identify laboratory tools",
+    "skill_url": "https://au.ixl.com/science/year-6/identify-laboratory-tools",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Select the funnel. Submit",
+    "options": [],
+    "correct_answer": "",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:06:50.390781+00:00",
+    "quiz_ready": false
+  },
+  {
+    "question_id": "ixl-science-year-6-identify-independent-and-dependent-variables-q1",
+    "subject": "science",
+    "year": "year-6",
+    "skill_name": "Identify independent and dependent variables",
+    "skill_url": "https://au.ixl.com/science/year-6/identify-independent-and-dependent-variables",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "The passage below describes an experiment. Read the passage and think about the variables that are described. harvesting blackberries Oscar's grandmother suggested that soaking berries in hot water might help prevent the berries from getting mouldy. To test this idea, Oscar harvested fresh blackberries and divided them evenly into eight bowls. He filled four of the bowls with room temperature water and the other four bowls with water heated to 52°C. Oscar let all of the berries soak in the water for 30 seconds. Then, he poured out the water and dried the berries. Oscar placed the two groups of bowls in the refrigerator, keeping each group separate. After five days, Oscar counted the number of mouldy blackberries in each bowl. Which of the following was an independent variable in this experiment? Hint: An independent variable is a variable whose effect you are investigating. A dependent variable is a variable that you measure.",
+    "options": [
+      "the temperature of the water",
+      "the number of moldy blackberries"
+    ],
+    "correct_answer": "the number of moldy blackberries",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:07:08.355524+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-6-predict-forces-using-newton-s-third-law-of-motion-q1",
+    "subject": "science",
+    "year": "year-6",
+    "skill_name": "Predict forces using Newton’s third law of motion",
+    "skill_url": "https://au.ixl.com/science/year-6/predict-forces-using-newton-s-third-law-of-motion",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Isaac Newton was born in the 1600s and studied how objects move. He discovered three fundamental laws about forces and motion. According to Newton's third law, for every force, there is an equal and opposite force. Consider the following force: The Sun is pulling on Earth. According to Newton's third law, what other force must be happening?",
+    "options": [
+      "Earth is pushing on the Sun.",
+      "Earth is pulling on the Sun."
+    ],
+    "correct_answer": "Earth is pulling on the Sun.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:07:35.151310+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-6-identify-changes-in-gravitational-potential-energy-q1",
+    "subject": "science",
+    "year": "year-6",
+    "skill_name": "Identify changes in gravitational potential energy",
+    "skill_url": "https://au.ixl.com/science/year-6/identify-changes-in-gravitational-potential-energy",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Read the text about an animal in motion. A gecko used its sticky feet to crawl from the bottom of a window to the top of the window. Complete the statement. Assume that the gecko's mass did not change. The gravitational potential energy stored between the gecko and Earth ﻿ as the gecko crawled on the window.",
+    "options": [
+      "increased",
+      "decreased",
+      "stayed the same"
+    ],
+    "correct_answer": "stayed the same",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:07:52.735950+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-6-explore-energy-transformations-bike-ride-q1",
+    "subject": "science",
+    "year": "year-6",
+    "skill_name": "Explore energy transformations: bike ride",
+    "skill_url": "https://au.ixl.com/science/year-6/explore-energy-transformations-bike-ride",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "There are many types of energy. One type is kinetic energy, which is the energy an object has when it is moving. Read the passage about a bike ride. Think about the kinetic energy of the person riding the bike. Ellen was training for a bike race. One afternoon, she grabbed her helmet and took her bike out to the street. She got on the bike and started to pedal, pushing hard to start moving forward. Which of the following is better evidence that Ellen's kinetic energy changed?",
+    "options": [
+      "When Ellen started pedalling her bike, she began moving along the street.",
+      "When Ellen got on her bike, her feet were no longer touching the ground."
+    ],
+    "correct_answer": "When Ellen got on her bike, her feet were no longer touching the ground.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:08:10.400251+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-6-identify-magnets-that-attract-or-repel-q1",
+    "subject": "science",
+    "year": "year-6",
+    "skill_name": "Identify magnets that attract or repel",
+    "skill_url": "https://au.ixl.com/science/year-6/identify-magnets-that-attract-or-repel",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Two magnets are placed as shown. N S S N Will these magnets",
+    "options": [
+      "attract",
+      "repel"
+    ],
+    "correct_answer": "repel",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:08:27.997756+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-6-how-does-light-travel-and-interact-with-matter-q1",
+    "subject": "science",
+    "year": "year-6",
+    "skill_name": "How does light travel and interact with matter?",
+    "skill_url": "https://au.ixl.com/science/year-6/how-does-light-travel-and-interact-with-matter",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Light sources produce light. Light bulbs and the Sun are examples of light sources. Light rays travel in straight lines away from their source. Which model shows how light travels away from the Sun? Submit",
+    "options": [],
+    "correct_answer": "",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:08:45.996831+00:00",
+    "quiz_ready": false
+  },
+  {
+    "question_id": "ixl-science-year-6-identify-inherited-and-acquired-traits-q1",
+    "subject": "science",
+    "year": "year-6",
+    "skill_name": "Identify inherited and acquired traits",
+    "skill_url": "https://au.ixl.com/science/year-6/identify-inherited-and-acquired-traits",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Is the following trait",
+    "options": [
+      "inherited",
+      "acquired"
+    ],
+    "correct_answer": "acquired",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:09:03.695057+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-6-animal-adaptations-feet-and-limbs-q1",
+    "subject": "science",
+    "year": "year-6",
+    "skill_name": "Animal adaptations: feet and limbs",
+    "skill_url": "https://au.ixl.com/science/year-6/animal-adaptations-feet-and-limbs",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Madagascar day gecko Madagascar day geckos live in the forests of Madagascar. They spend most of their lives in trees. The feet of the Madagascar day gecko are adapted to stick to the smooth surfaces of leaves and stems. Which animal's feet are also adapted for sticking to smooth surfaces?",
+    "options": [
+      "Mediterranean tree frog",
+      "monitor lizard"
+    ],
+    "correct_answer": "monitor lizard",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:09:21.563753+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-6-describe-populations-communities-and-ecosystems-q1",
+    "subject": "science",
+    "year": "year-6",
+    "skill_name": "Describe populations, communities and ecosystems",
+    "skill_url": "https://au.ixl.com/science/year-6/describe-populations-communities-and-ecosystems",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Read the passage. Then answer the question below. a Mexican spotted owl perched in a tree Pine-oak forests grow along the Sierra Madre Occidental mountain range in Mexico. Tree species including Durango pine, netleaf oak, and Arizona white oak grow in the deep soil on the mountain slopes. These trees provide a nesting habitat for species such as the Mexican spotted owl. Spotted owls hunt for woodrats, brush mice, and cottontail rabbits that live in the pine-oak forest. Which of the following best describes a community in the Sierra Madre Occidental mountain range?",
+    "options": [
+      "the cottontail rabbits",
+      "the Durango pine trees, the Arizona white oak trees, and the soil",
+      "the netleaf oak trees, the Mexican spotted owls, and the brush mice"
+    ],
+    "correct_answer": "the netleaf oak trees, the Mexican spotted owls, and the brush mice",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:09:39.277810+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-6-science-literacy-how-can-a-community-protect-sea-turtles-q1",
+    "subject": "science",
+    "year": "year-6",
+    "skill_name": "Science literacy: how can a community protect sea turtles?",
+    "skill_url": "https://au.ixl.com/science/year-6/science-literacy-how-can-a-community-protect-sea-turtles",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Imagine you have a friend, Marsella, who lives near the coast. You read a social media post from Marsella. Her post includes an article about sea turtles. What is the main purpose of this article?",
+    "options": [
+      "to describe predators that eat baby sea turtles",
+      "to inform people about a local law that may be passed",
+      "to persuade readers to protect wildlife",
+      "to explain how local laws are passed in Chelonia Shire"
+    ],
+    "correct_answer": "to explain how local laws are passed in Chelonia Shire",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:09:57.110493+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-6-changes-to-earth-s-surface-earthquakes-q1",
+    "subject": "science",
+    "year": "year-6",
+    "skill_name": "Changes to Earth's surface: earthquakes",
+    "skill_url": "https://au.ixl.com/science/year-6/changes-to-earths-surface-earthquakes",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentences. Earthquakes start ﻿ Earth's surface. During an earthquake, ﻿.",
+    "options": [
+      "below . . . the ground shakes",
+      "above . . . the ground shakes",
+      "below . . . the ground gets colder",
+      "above . . . the ground gets colder"
+    ],
+    "correct_answer": "above . . . the ground gets colder",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:10:16.793030+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-6-analyse-models-of-the-earth-sun-moon-system-q1",
+    "subject": "science",
+    "year": "year-6",
+    "skill_name": "Analyse models of the Earth-Sun-Moon system",
+    "skill_url": "https://au.ixl.com/science/year-6/analyse-models-of-the-earth-sun-moon-system",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Our solar system is made up of the Sun and all the objects that move around it. These objects include planets, moons, asteroids and comets. The sizes of the objects in the solar system are difficult to imagine without the help of a model. Models make certain characteristics of a system easier to understand. A model can be a physical object, a graph, a diagram or a simulation. The diagram below is a model that shows the relative sizes of the Sun, the Moon and Earth. The two small dots represent the accurate sizes of Earth and the Moon compared to the Sun. A close-up view of Earth and the Moon is also shown. Complete the sentence to estimate the diameter of the Sun compared to Earth. The Sun's diameter is about ﻿ times greater than Earth's.",
+    "options": [
+      "3",
+      "10",
+      "100"
+    ],
+    "correct_answer": "100",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:10:34.390707+00:00",
+    "quiz_ready": true
+  }
+]

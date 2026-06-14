@@ -1,0 +1,122 @@
+name: IXL Science Scraper (Year 7-9)
+
+on:
+  workflow_dispatch:       # run manually from GitHub UI
+  schedule:
+    - cron: '0 6 * * 0'   # every Sunday at 6am UTC
+
+jobs:
+
+  # ── YEAR 7 ────────────────────────────────────────────────────────────────
+
+  scrape-year7:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: pip install -r requirements.txt && playwright install chromium && playwright install-deps chromium
+      - name: Restore checkpoint cache
+        uses: actions/cache@v4
+        with:
+          path: output/science/year-7
+          key: science-year7-checkpoint
+          restore-keys: science-year7-checkpoint
+      - name: Run scraper
+        run: |
+          mkdir -p output/science/year-7
+          python3 ixl_scraper_ui.py \
+            --subject science --year year-7 \
+            --username "${{ secrets.IXL_USERNAME }}" \
+            --password "${{ secrets.IXL_PASSWORD }}" \
+            --output-dir "output/science/year-7" \
+            --mcq-only --headless
+      - name: Save checkpoint cache
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: output/science/year-7
+          key: science-year7-checkpoint
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: science-year7-results
+          path: output/science/year-7/
+
+  # ── YEAR 8 ────────────────────────────────────────────────────────────────
+
+  scrape-year8:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: pip install -r requirements.txt && playwright install chromium && playwright install-deps chromium
+      - name: Restore checkpoint cache
+        uses: actions/cache@v4
+        with:
+          path: output/science/year-8
+          key: science-year8-checkpoint
+          restore-keys: science-year8-checkpoint
+      - name: Run scraper
+        run: |
+          mkdir -p output/science/year-8
+          python3 ixl_scraper_ui.py \
+            --subject science --year year-8 \
+            --username "${{ secrets.IXL_USERNAME }}" \
+            --password "${{ secrets.IXL_PASSWORD }}" \
+            --output-dir "output/science/year-8" \
+            --mcq-only --headless
+      - name: Save checkpoint cache
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: output/science/year-8
+          key: science-year8-checkpoint
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: science-year8-results
+          path: output/science/year-8/
+
+  # ── YEAR 9 ────────────────────────────────────────────────────────────────
+
+  scrape-year9:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: pip install -r requirements.txt && playwright install chromium && playwright install-deps chromium
+      - name: Restore checkpoint cache
+        uses: actions/cache@v4
+        with:
+          path: output/science/year-9
+          key: science-year9-checkpoint
+          restore-keys: science-year9-checkpoint
+      - name: Run scraper
+        run: |
+          mkdir -p output/science/year-9
+          python3 ixl_scraper_ui.py \
+            --subject science --year year-9 \
+            --username "${{ secrets.IXL_USERNAME }}" \
+            --password "${{ secrets.IXL_PASSWORD }}" \
+            --output-dir "output/science/year-9" \
+            --mcq-only --headless
+      - name: Save checkpoint cache
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: output/science/year-9
+          key: science-year9-checkpoint
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: science-year9-results
+          path: output/science/year-9/

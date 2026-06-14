@@ -1,0 +1,262 @@
+[
+  {
+    "question_id": "ixl-science-year-6-laboratory-safety-equipment-q1",
+    "subject": "science",
+    "year": "year-6",
+    "skill_name": "Laboratory safety equipment",
+    "skill_url": "https://au.ixl.com/science/year-6/laboratory-safety-equipment",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Select the fire extinguisher. Submit",
+    "options": [],
+    "correct_answer": "",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:06:54.817794+00:00",
+    "quiz_ready": false
+  },
+  {
+    "question_id": "ixl-science-year-6-identify-the-experimental-question-q1",
+    "subject": "science",
+    "year": "year-6",
+    "skill_name": "Identify the experimental question",
+    "skill_url": "https://au.ixl.com/science/year-6/identify-the-experimental-question",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "The passage below describes an experiment. Read the passage and then follow the instructions below. snowboarding down a hill Matilda applied a thin layer of wax to the underside of her snowboard and rode the board straight down a hill. Then, she removed the wax and rode the snowboard straight down the hill again. She repeated the rides four more times, alternating whether she rode with a thin layer of wax on the board or not. Her friend Joshua timed each ride. Matilda and Joshua calculated the average time it took to slide straight down the hill on the snowboard with wax compared to the average time on the snowboard without wax. Identify the question that Matilda and Joshua's experiment can best answer.",
+    "options": [
+      "Does Matilda's snowboard slide down a hill in less time when it has a thin layer of wax or a thick layer of wax?",
+      "Does Matilda's snowboard slide down a hill in less time when it has a layer of wax or when it does not have a layer of wax?"
+    ],
+    "correct_answer": "Does Matilda's snowboard slide down a hill in less time when it has a layer of wax or when it does not have a layer of wax?",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:07:12.822204+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-6-evaluate-tests-of-engineering-design-solutions-q1",
+    "subject": "science",
+    "year": "year-6",
+    "skill_name": "Evaluate tests of engineering-design solutions",
+    "skill_url": "https://au.ixl.com/science/year-6/evaluate-tests-of-engineering-design-solutions",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "People can use the engineering-design process to develop solutions to problems. One step in the process is testing if a potential solution meets the requirements of the design. The passage below describes how the engineering-design process was used to test a solution to a problem. Read the passage. Then answer the question below. preparing a concrete slump test Marie and Layla were making batches of concrete for a construction project. To make the concrete, they mixed together dry cement powder, gravel and water. Then, they checked if each batch was firm enough using a test called a slump test. They poured some of the fresh concrete into an upside-down metal cone. They left the concrete in the metal cone for 30 seconds. Then, they lifted the cone to see if the concrete stayed in a cone shape or if it collapsed. If the concrete in a batch collapsed, they would know the batch should not be used. Which of the following could Marie and Layla's test show?",
+    "options": [
+      "if the concrete from each batch took the same amount of time to dry",
+      "if a new batch of concrete was firm enough to use"
+    ],
+    "correct_answer": "if a new batch of concrete was firm enough to use",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:07:32.706958+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-6-identify-and-sort-solids-liquids-and-gases-q1",
+    "subject": "science",
+    "year": "year-6",
+    "skill_name": "Identify and sort solids, liquids and gases",
+    "skill_url": "https://au.ixl.com/science/year-6/identify-and-sort-solids-liquids-and-gases",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Is the wind turning a pinwheel",
+    "options": [
+      "a solid",
+      "a liquid",
+      "a gas"
+    ],
+    "correct_answer": "a gas",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:07:50.549129+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-6-balanced-and-unbalanced-forces-q1",
+    "subject": "science",
+    "year": "year-6",
+    "skill_name": "Balanced and unbalanced forces",
+    "skill_url": "https://au.ixl.com/science/year-6/balanced-and-unbalanced-forces",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Amelia is sliding a heavy chest of drawers across the carpeted floor of her apartment. She is pushing the chest of drawers forward with a force of 350N. The carpet is pushing the chest of drawers backward with a force of 380N. Assume all other forces on the chest of drawers are balanced. Which statement describes the forces on the chest of drawers?",
+    "options": [
+      "The forces are balanced, so there is no net force on the chest of drawers.",
+      "The forces are unbalanced, so there is a net force on the chest of drawers."
+    ],
+    "correct_answer": "The forces are unbalanced, so there is a net force on the chest of drawers.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:08:10.500359+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-6-electric-circuits-q1",
+    "subject": "science",
+    "year": "year-6",
+    "skill_name": "Electric circuits",
+    "skill_url": "https://au.ixl.com/science/year-6/electric-circuits",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "'Beep! Beep! Beep!' Dylan's alarm clock wakes him up. He turns on his lamp. Then he goes to the kitchen and makes some toast for breakfast. Dylan used several devices that require energy. Each of these devices converts electrical energy, or electricity, into one or more different forms. Which is the best example of converting electrical energy to light energy?",
+    "options": [
+      "turning on a lamp",
+      "an alarm beeping",
+      "toasting bread"
+    ],
+    "correct_answer": "toasting bread",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:08:30.299867+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-6-inherited-and-acquired-traits-use-evidence-to-support-a-statement-q1",
+    "subject": "science",
+    "year": "year-6",
+    "skill_name": "Inherited and acquired traits: use evidence to support a statement",
+    "skill_url": "https://au.ixl.com/science/year-6/inherited-and-acquired-traits-use-evidence-to-support-a-statement",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Read the description of a trait. Tyler speaks two languages. What information supports the conclusion that Tyler acquired this trait?",
+    "options": [
+      "Tyler learned to speak two languages in school.",
+      "Tyler's mother speaks one language."
+    ],
+    "correct_answer": "Tyler's mother speaks one language.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:08:52.014823+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-6-animal-adaptations-skins-and-body-coverings-q1",
+    "subject": "science",
+    "year": "year-6",
+    "skill_name": "Animal adaptations: skins and body coverings",
+    "skill_url": "https://au.ixl.com/science/year-6/animal-adaptations-skins-and-body-coverings",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "leaf-mimic katydid Leaf-mimic katydids are insects that live in places like tropical forests. This katydid is adapted to be camouflaged among green leaves. Which animal is also adapted to be camouflaged among green leaves?",
+    "options": [
+      "fire salamander",
+      "green silver-line"
+    ],
+    "correct_answer": "green silver-line",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:09:09.764860+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-6-identify-ecosystems-q1",
+    "subject": "science",
+    "year": "year-6",
+    "skill_name": "Identify ecosystems",
+    "skill_url": "https://au.ixl.com/science/year-6/identify-ecosystems",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Select the taiga ecosystem.",
+    "options": [
+      "This ecosystem has: a small amount of rain dry, thin soil many different types of organisms",
+      "This ecosystem has: long, cold winters and short, cool summers many evergreen trees soil that is poor in nutrients",
+      "This ecosystem has: long, cold winters and short, cold summers mostly small plants soil that is frozen year-round"
+    ],
+    "correct_answer": "This ecosystem has: long, cold winters and short, cold summers mostly small plants soil that is frozen year-round",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:09:27.465606+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-6-identify-earth-s-land-features-using-photographs-q1",
+    "subject": "science",
+    "year": "year-6",
+    "skill_name": "Identify Earth's land features using photographs",
+    "skill_url": "https://au.ixl.com/science/year-6/identify-earths-land-features-using-photographs",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "A canyon is a deep and narrow landform. A canyon has steep cliffs on both sides. Sometimes, a canyon has a river running through it. Select the canyon. Submit",
+    "options": [],
+    "correct_answer": "",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:09:47.347480+00:00",
+    "quiz_ready": false
+  },
+  {
+    "question_id": "ixl-science-year-6-changes-to-earth-s-surface-volcanic-eruptions-q1",
+    "subject": "science",
+    "year": "year-6",
+    "skill_name": "Changes to Earth's surface: volcanic eruptions",
+    "skill_url": "https://au.ixl.com/science/year-6/changes-to-earths-surface-volcanic-eruptions",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Complete the paragraph. A volcano is a ﻿. Volcanoes can erupt. During a volcanic eruption, melted rock ﻿ the ground.",
+    "options": [
+      "type of melted rock . . . flows into",
+      "hole in Earth's surface . . . comes out of",
+      "fire below Earth's surface . . . turns solid below"
+    ],
+    "correct_answer": "fire below Earth's surface . . . turns solid below",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:10:04.908818+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-6-analyse-data-to-compare-properties-of-planets-q1",
+    "subject": "science",
+    "year": "year-6",
+    "skill_name": "Analyse data to compare properties of planets",
+    "skill_url": "https://au.ixl.com/science/year-6/analyse-data-to-compare-properties-of-planets",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Use the data to answer the question below. Planet Volume (billions of km3) Primary composition Mercury 60 rock Venus 930 rock Earth 1090 rock Mars 160 rock Jupiter 1 431 280 gas Saturn 827 130 gas Uranus 68 330 ice Neptune 62 530 ice Is the following statement about our solar system",
+    "options": [
+      "true",
+      "false"
+    ],
+    "correct_answer": "false",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:10:24.531565+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-6-choose-units-of-distance-mass-and-volume-q1",
+    "subject": "science",
+    "year": "year-6",
+    "skill_name": "Choose units of distance, mass and volume",
+    "skill_url": "https://au.ixl.com/science/year-6/choose-units-of-distance-mass-and-volume",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "How long is an eyelash? Select the best estimate.",
+    "options": [
+      "9 kilometres",
+      "9 millimetres",
+      "9 centimetres",
+      "9 metres"
+    ],
+    "correct_answer": "9 metres",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:10:42.048526+00:00",
+    "quiz_ready": true
+  }
+]
