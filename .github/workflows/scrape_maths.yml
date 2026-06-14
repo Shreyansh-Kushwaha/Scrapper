@@ -59,6 +59,12 @@ jobs:
         with:
           name: year4-batches
           path: output/maths/year-4/
+      - name: Restore checkpoint cache
+        uses: actions/cache@v4
+        with:
+          path: output/maths/year-4/worker_${{ matrix.worker }}
+          key: year4-worker${{ matrix.worker }}-checkpoint
+          restore-keys: year4-worker${{ matrix.worker }}-checkpoint
       - name: Run worker ${{ matrix.worker }}
         run: |
           mkdir -p output/maths/year-4/worker_${{ matrix.worker }}
@@ -69,7 +75,14 @@ jobs:
             --output-dir "output/maths/year-4/worker_${{ matrix.worker }}" \
             --skills-file "output/maths/year-4/_batch_${{ matrix.worker }}.json" \
             --mcq-only --headless
+      - name: Save checkpoint cache
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: output/maths/year-4/worker_${{ matrix.worker }}
+          key: year4-worker${{ matrix.worker }}-checkpoint
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: year4-worker${{ matrix.worker }}-results
           path: output/maths/year-4/worker_${{ matrix.worker }}/
@@ -126,6 +139,12 @@ jobs:
         with:
           name: year5-batches
           path: output/maths/year-5/
+      - name: Restore checkpoint cache
+        uses: actions/cache@v4
+        with:
+          path: output/maths/year-5/worker_${{ matrix.worker }}
+          key: year5-worker${{ matrix.worker }}-checkpoint
+          restore-keys: year5-worker${{ matrix.worker }}-checkpoint
       - name: Run worker ${{ matrix.worker }}
         run: |
           mkdir -p output/maths/year-5/worker_${{ matrix.worker }}
@@ -136,7 +155,14 @@ jobs:
             --output-dir "output/maths/year-5/worker_${{ matrix.worker }}" \
             --skills-file "output/maths/year-5/_batch_${{ matrix.worker }}.json" \
             --mcq-only --headless
+      - name: Save checkpoint cache
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: output/maths/year-5/worker_${{ matrix.worker }}
+          key: year5-worker${{ matrix.worker }}-checkpoint
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: year5-worker${{ matrix.worker }}-results
           path: output/maths/year-5/worker_${{ matrix.worker }}/
@@ -193,6 +219,12 @@ jobs:
         with:
           name: year6-batches
           path: output/maths/year-6/
+      - name: Restore checkpoint cache
+        uses: actions/cache@v4
+        with:
+          path: output/maths/year-6/worker_${{ matrix.worker }}
+          key: year6-worker${{ matrix.worker }}-checkpoint
+          restore-keys: year6-worker${{ matrix.worker }}-checkpoint
       - name: Run worker ${{ matrix.worker }}
         run: |
           mkdir -p output/maths/year-6/worker_${{ matrix.worker }}
@@ -203,7 +235,14 @@ jobs:
             --output-dir "output/maths/year-6/worker_${{ matrix.worker }}" \
             --skills-file "output/maths/year-6/_batch_${{ matrix.worker }}.json" \
             --mcq-only --headless
+      - name: Save checkpoint cache
+        if: always()
+        uses: actions/cache/save@v4
+        with:
+          path: output/maths/year-6/worker_${{ matrix.worker }}
+          key: year6-worker${{ matrix.worker }}-checkpoint
       - uses: actions/upload-artifact@v4
+        if: always()
         with:
           name: year6-worker${{ matrix.worker }}-results
           path: output/maths/year-6/worker_${{ matrix.worker }}/
