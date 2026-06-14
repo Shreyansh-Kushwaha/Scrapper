@@ -1,0 +1,22 @@
+[
+  {
+    "question_id": "ixl-science-year-9-identify-control-and-experimental-groups-q1",
+    "subject": "science",
+    "year": "year-9",
+    "skill_name": "Identify control and experimental groups",
+    "skill_url": "https://au.ixl.com/science/year-9/identify-control-and-experimental-groups",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "The passage below describes an experiment. several pots of basil growing indoors Franklin grows herbs in his house. He read that lowering soil pH can help plants grow more quickly. Franklin put cuttings of the same herb in six small pots. He watered two of the cuttings with only water, two with water mixed with one tablespoon of vinegar, and the final two with water mixed with two tablespoons of vinegar. After one month, he measured the height of the herbs in each pot. In this experiment, which were part of an experimental group?",
+    "options": [
+      "the herbs watered with only water",
+      "the herbs watered with water mixed with one tablespoon of vinegar"
+    ],
+    "correct_answer": "the herbs watered with water mixed with one tablespoon of vinegar",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T08:05:00.154740+00:00",
+    "quiz_ready": true
+  }
+]

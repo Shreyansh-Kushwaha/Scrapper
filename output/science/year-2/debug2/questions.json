@@ -1,0 +1,22 @@
+[
+  {
+    "question_id": "ixl-science-year-2-compare-properties-of-materials-q1",
+    "subject": "science",
+    "year": "year-2",
+    "skill_name": "Compare properties of materials",
+    "skill_url": "https://au.ixl.com/science/year-2/compare-properties-of-materials",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Which would smell more?",
+    "options": [
+      "metal trombone",
+      "petrol"
+    ],
+    "correct_answer": "petrol",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T06:59:19.276190+00:00",
+    "quiz_ready": true
+  }
+]

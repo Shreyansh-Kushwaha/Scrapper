@@ -322,10 +322,14 @@ def wait_for_new_question(page, prev_text):
     deadline = time.time() + 8
     while time.time() < deadline:
         current = get_question_text(page)
-        if (current and len(current) > 20
-                and not current.startswith("Submit")
-                and current[:80] != prev_text[:80]):
-            return True
+        if current and len(current) > 5 and not current.startswith("Submit"):
+            # Different text — clearly a new question
+            if current[:80] != prev_text[:80]:
+                return True
+            # Same text — only accept once feedback is gone AND new tiles are loaded
+            has_tiles = bool(page.query_selector("[class*='SelectableTile']:not([class*='nonInteractive'])"))
+            if not page.query_selector(".correct-answer") and has_tiles:
+                return True
         for label in ("Got it", "Next", "Continue"):
             if click_crisp(page, label):
                 time.sleep(0.5)
@@ -372,16 +376,20 @@ def download_images(page, img_dir, session):
                 resp = session.get(full_url, timeout=10)
                 resp.raise_for_status()
                 ct = resp.headers.get("content-type", "")
+                print(f"[DEBUG-IMG] url={full_url[:80]} status={resp.status_code} ct={ct}", flush=True)
                 if "png" in ct:
                     fname = fname.replace(".jpg", ".png")
                     fpath = img_dir / fname
                 elif "webp" in ct:
                     fname = fname.replace(".jpg", ".webp")
                     fpath = img_dir / fname
+                elif "svg" in ct:
+                    fname = fname.replace(".jpg", ".svg")
+                    fpath = img_dir / fname
                 fpath.write_bytes(resp.content)
                 paths.append(fname)
-            except Exception:
-                pass
+            except Exception as e:
+                print(f"[DEBUG-IMG] FAILED url={full_url[:80]} err={e}", flush=True)
 
     return paths
 
@@ -429,7 +437,7 @@ def scrape_skill(page, skill, subject, year, max_questions, img_dir, mcq_only=Fa
     deadline = time.time() + 15
     while time.time() < deadline:
         t = get_question_text(page)
-        if t and len(t) > 20:
+        if t and len(t) > 5:
             break
         time.sleep(0.5)
 
@@ -443,7 +451,7 @@ def scrape_skill(page, skill, subject, year, max_questions, img_dir, mcq_only=Fa
             break
 
         current_text = get_question_text(page)
-        if not current_text or len(current_text) < 20 or current_text.startswith("Submit"):
+        if not current_text or len(current_text) < 5 or current_text.startswith("Submit"):
             break
 
         html  = page.content()
@@ -467,21 +475,33 @@ def scrape_skill(page, skill, subject, year, max_questions, img_dir, mcq_only=Fa
             if idx > 0:
                 stem = full[:idx].strip()
 
-        # Use the extracted stem (question only, no passage/choices) as the repeat key.
-        # Hashing the full stem avoids false positives on passage-based questions where
-        # the first 80 chars of current_text are always the same passage opener.
-        stem_key = hashlib.md5(stem.encode()).hexdigest()
-        seen_stems[stem_key] = seen_stems.get(stem_key, 0) + 1
-        if seen_stems[stem_key] >= 2:
-            break
-
         blanks = []
         if "fill" in qtype:
             inputs = page.query_selector_all("input[type='text'], input[type='number']")
             blanks = [clean(i.get_attribute("placeholder") or "") for i in inputs]
 
         img_paths = download_images(page, img_dir, session)
+        if not img_paths:
+            # Dump HTML once to help diagnose missing images
+            debug_html = Path(img_dir.parent / "_debug_page.html")
+            if not debug_html.exists():
+                debug_html.write_text(page.content(), encoding="utf-8")
         correct   = capture_answer(page, qtype)
+
+        # Repeat detection:
+        # - If question has distinguishing content (text answer or images), stop at first exact repeat.
+        # - If question is pure image with no extractable text or images, cap at 10 per stem
+        #   since we can't tell questions apart but don't want to loop forever.
+        if correct or img_paths:
+            content_key = hashlib.md5((stem + str(correct) + str(sorted(img_paths))).encode()).hexdigest()
+            seen_stems[content_key] = seen_stems.get(content_key, 0) + 1
+            if seen_stems[content_key] >= 2:
+                break
+        else:
+            stem_key = hashlib.md5(stem.encode()).hexdigest()
+            seen_stems[stem_key] = seen_stems.get(stem_key, 0) + 1
+            if seen_stems[stem_key] >= 10:
+                break
 
         q_index = len(results) + 1
         p_question(q_index, qtype)

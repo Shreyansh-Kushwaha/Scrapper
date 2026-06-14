@@ -1,0 +1,42 @@
+[
+  {
+    "question_id": "ixl-science-year-3-compare-properties-of-materials-q1",
+    "subject": "science",
+    "year": "year-3",
+    "skill_name": "Compare properties of materials",
+    "skill_url": "https://au.ixl.com/science/year-3/compare-properties-of-materials",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Which is more flexible?",
+    "options": [
+      "plastic blocks",
+      "rubber balloons"
+    ],
+    "correct_answer": "rubber balloons",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T06:55:50.121556+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-3-identify-materials-in-objects-q1",
+    "subject": "science",
+    "year": "year-3",
+    "skill_name": "Identify materials in objects",
+    "skill_url": "https://au.ixl.com/science/year-3/identify-materials-in-objects",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Which material is this necktie made of?",
+    "options": [
+      "rock",
+      "silk"
+    ],
+    "correct_answer": "silk",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T06:56:12.566855+00:00",
+    "quiz_ready": true
+  }
+]

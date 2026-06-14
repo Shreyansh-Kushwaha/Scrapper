@@ -1,0 +1,19 @@
+[
+  {
+    "question_id": "ixl-science-year-7-identify-laboratory-tools-q1",
+    "subject": "science",
+    "year": "year-7",
+    "skill_name": "Identify laboratory tools",
+    "skill_url": "https://au.ixl.com/science/year-7/identify-laboratory-tools",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Select the funnel. Submit",
+    "options": [],
+    "correct_answer": "",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T11:43:57.613559+00:00",
+    "quiz_ready": false
+  }
+]

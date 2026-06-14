@@ -1,0 +1,102 @@
+[
+  {
+    "question_id": "ixl-science-year-2-changes-caused-by-heating-and-cooling-q1",
+    "subject": "science",
+    "year": "year-2",
+    "skill_name": "Changes caused by heating and cooling",
+    "skill_url": "https://au.ixl.com/science/year-2/changes-caused-by-heating-and-cooling",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Luke wants to make ice pops. First, he fills an ice pop mould with orange juice. What should Luke do now?",
+    "options": [
+      "put the ice pop mould in the freezer",
+      "leave the ice pop mould on the counter"
+    ],
+    "correct_answer": "leave the ice pop mould on the counter",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T07:01:18.288646+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-2-identify-mixtures-q1",
+    "subject": "science",
+    "year": "year-2",
+    "skill_name": "Identify mixtures",
+    "skill_url": "https://au.ixl.com/science/year-2/identify-mixtures",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Select the mixture.",
+    "options": [
+      "salad",
+      "copper"
+    ],
+    "correct_answer": "copper",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T07:01:40.907092+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-2-identify-pushes-and-pulls-q1",
+    "subject": "science",
+    "year": "year-2",
+    "skill_name": "Identify pushes and pulls",
+    "skill_url": "https://au.ixl.com/science/year-2/identify-pushes-and-pulls",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "A basketball player takes a shot. His hand pushes the ball into the air to score a basket. What is the direction of this push?",
+    "options": [
+      "away from the basketball player's hand",
+      "towards the basketball player's hand"
+    ],
+    "correct_answer": "towards the basketball player's hand",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T07:02:03.416167+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-2-how-do-mass-and-force-affect-motion-q1",
+    "subject": "science",
+    "year": "year-2",
+    "skill_name": "How do mass and force affect motion?",
+    "skill_url": "https://au.ixl.com/science/year-2/how-do-mass-and-force-affect-motion",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Flynn gives two friends a ride in his wagon. One friend sits in the wagon at a time. Flynn starts to pull the wagon across the yard. To move the wagon at the same speed each time, which friend does Flynn need to pull with a larger force?",
+    "options": [
+      "a friend who weighs 19 kilograms",
+      "a friend who weighs 24 kilograms"
+    ],
+    "correct_answer": "a friend who weighs 24 kilograms",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T07:02:25.383652+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-2-what-objects-can-a-magnet-pull-q1",
+    "subject": "science",
+    "year": "year-2",
+    "skill_name": "What objects can a magnet pull?",
+    "skill_url": "https://au.ixl.com/science/year-2/what-objects-can-a-magnet-pull",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Abby is playing with a fishing game. She holds a toy fishing pole over a toy fish. Play the video to see what happens. Something went wrong An error occurred, please try again later. Copy for customer care: session ID undefined Try again Pick the true sentence.",
+    "options": [
+      "The fishing pole pushes the fish.",
+      "The fishing pole pulls the fish."
+    ],
+    "correct_answer": "The fishing pole pulls the fish.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T07:02:51.607199+00:00",
+    "quiz_ready": true
+  }
+]
