@@ -1,0 +1,289 @@
+[
+  {
+    "question_id": "ixl-science-year-4-identify-and-sort-solids-liquids-and-gases-q1",
+    "subject": "science",
+    "year": "year-4",
+    "skill_name": "Identify and sort solids, liquids and gases",
+    "skill_url": "https://au.ixl.com/science/year-4/identify-and-sort-solids-liquids-and-gases",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Is molasses",
+    "options": [
+      "a solid",
+      "a liquid",
+      "a gas"
+    ],
+    "correct_answer": "a gas",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:06:53.440794+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-4-predict-heat-flow-q1",
+    "subject": "science",
+    "year": "year-4",
+    "skill_name": "Predict heat flow",
+    "skill_url": "https://au.ixl.com/science/year-4/predict-heat-flow",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Two solid blocks are heated to the temperatures shown. The blocks are placed so they touch. Which diagram shows the direction heat will flow?",
+    "options": [
+      "18°C 0°C HEAT",
+      "18°C 0°C HEAT",
+      "18°C 0°C NO HEATFLOW"
+    ],
+    "correct_answer": "18°C 0°C NO HEATFLOW",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:07:11.305786+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-4-how-do-balanced-and-unbalanced-forces-affect-motion-q1",
+    "subject": "science",
+    "year": "year-4",
+    "skill_name": "How do balanced and unbalanced forces affect motion?",
+    "skill_url": "https://au.ixl.com/science/year-4/how-do-balanced-and-unbalanced-forces-affect-motion",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "The text below describes a pair of opposing forces. Opposing forces act on an object in opposite directions. Read the text. Then answer the question below. A group of boys plays a game of tug-of-war with a group of girls. Think about two of the forces that act on the rope: The girls pull towards themselves. The boys pull",
+    "options": [
+      "away from the girls",
+      "toward the girls"
+    ],
+    "correct_answer": "toward the girls",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:07:29.304445+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-4-compare-strengths-of-magnetic-forces-q1",
+    "subject": "science",
+    "year": "year-4",
+    "skill_name": "Compare strengths of magnetic forces",
+    "skill_url": "https://au.ixl.com/science/year-4/compare-strengths-of-magnetic-forces",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "The images below show two pairs of magnets. The magnets in different pairs do not affect each other. All the magnets shown are made of the same material. Pair 1 S N N S 15 mm Pair 2 N S S N 27 mm Think about the magnetic force between the magnets in each pair. Which of the following statements is true?",
+    "options": [
+      "The magnetic force is stronger in Pair 1.",
+      "The magnetic force is stronger in Pair 2.",
+      "The strength of the magnetic force is the same in both pairs."
+    ],
+    "correct_answer": "The strength of the magnetic force is the same in both pairs.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:07:46.966767+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-4-identify-living-and-non-living-things-q1",
+    "subject": "science",
+    "year": "year-4",
+    "skill_name": "Identify living and non-living things",
+    "skill_url": "https://au.ixl.com/science/year-4/identify-living-and-non-living-things",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Select the living thing.",
+    "options": [
+      "yucca",
+      "stop sign",
+      "stalactite",
+      "Mount Rushmore National Memorial"
+    ],
+    "correct_answer": "Mount Rushmore National Memorial",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:08:04.912838+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-4-use-evidence-to-classify-mammals-birds-fish-reptiles-and-amphibians-q1",
+    "subject": "science",
+    "year": "year-4",
+    "skill_name": "Use evidence to classify mammals, birds, fish, reptiles and amphibians",
+    "skill_url": "https://au.ixl.com/science/year-4/use-evidence-to-classify-mammals-birds-fish-reptiles-and-amphibians",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Reptiles are a group of animals with similar traits. The following traits can be used to identify reptiles: They have scaly, waterproof skin. They make eggs with shells. Observe the animals and read the descriptions. Select the one animal that has all of the reptile traits listed above.",
+    "options": [
+      "African elephants have thin hair covering their body. Female elephants feed their offspring milk. Elephants live in groups called herds. The oldest female in the herd is usually the leader.",
+      "Coral snakes hatch from eggs with shells. They spend most of their time underground or hiding under leaves. Coral snakes have scaly, waterproof skin."
+    ],
+    "correct_answer": "Coral snakes hatch from eggs with shells. They spend most of their time underground or hiding under leaves. Coral snakes have scaly, waterproof skin.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:08:22.604984+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-4-describe-ecosystems-q1",
+    "subject": "science",
+    "year": "year-4",
+    "skill_name": "Describe ecosystems",
+    "skill_url": "https://au.ixl.com/science/year-4/describe-ecosystems",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Catoctin Mountain Park Catoctin Mountain Park is a temperate deciduous forest ecosystem in Maryland. Which better describes the Catoctin Mountain Park ecosystem?",
+    "options": [
+      "It has cold, wet winters. It also has soil that is rich in nutrients.",
+      "It has soil that is poor in nutrients. It also has only a few types of trees."
+    ],
+    "correct_answer": "It has soil that is poor in nutrients. It also has only a few types of trees.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:08:46.593974+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-4-science-literacy-how-can-a-community-protect-sea-turtles-q1",
+    "subject": "science",
+    "year": "year-4",
+    "skill_name": "Science literacy: how can a community protect sea turtles?",
+    "skill_url": "https://au.ixl.com/science/year-4/science-literacy-how-can-a-community-protect-sea-turtles",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Imagine you have a friend, Marsella, who lives near the coast. You read a social media post from Marsella. Her post includes an article about sea turtles. What is the main purpose of this article?",
+    "options": [
+      "to explain how local laws are passed in Chelonia Shire",
+      "to inform people about a local law that may be passed",
+      "to describe predators that eat baby sea turtles",
+      "to persuade readers to protect wildlife"
+    ],
+    "correct_answer": "to persuade readers to protect wildlife",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:09:04.113443+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-4-identify-rocks-using-properties-q1",
+    "subject": "science",
+    "year": "year-4",
+    "skill_name": "Identify rocks using properties",
+    "skill_url": "https://au.ixl.com/science/year-4/identify-rocks-using-properties",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Select the one substance that is not a rock.",
+    "options": [
+      "Obsidian is a solid. It is not a pure substance.",
+      "Conglomerate is not a pure substance. It is a solid.",
+      "Steel is made in a factory. It is a solid."
+    ],
+    "correct_answer": "Steel is made in a factory. It is a solid.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:09:21.844910+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-4-identify-and-classify-fossils-q1",
+    "subject": "science",
+    "year": "year-4",
+    "skill_name": "Identify and classify fossils",
+    "skill_url": "https://au.ixl.com/science/year-4/identify-and-classify-fossils",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Select the fossil.",
+    "options": [
+      "dinosaur remains preserved in rock",
+      "drawing of a dinosaur",
+      "dinosaur model made of plastic"
+    ],
+    "correct_answer": "dinosaur model made of plastic",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:09:39.524313+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-4-compare-temperatures-on-thermometers-q1",
+    "subject": "science",
+    "year": "year-4",
+    "skill_name": "Compare temperatures on thermometers",
+    "skill_url": "https://au.ixl.com/science/year-4/compare-temperatures-on-thermometers",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Select the thermometer that shows the lowest temperature. Submit",
+    "options": [],
+    "correct_answer": "",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:09:57.284596+00:00",
+    "quiz_ready": false
+  },
+  {
+    "question_id": "ixl-science-year-4-weather-and-climate-around-the-world-q1",
+    "subject": "science",
+    "year": "year-4",
+    "skill_name": "Weather and climate around the world",
+    "skill_url": "https://au.ixl.com/science/year-4/weather-and-climate-around-the-world",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Eastern Colorado Eastern Colorado is part of the Great Plains. On October 19, 1988, a thunderstorm near the town of La Junta produced winds of 101 kilometres per hour. Does this passage describe the",
+    "options": [
+      "weather",
+      "climate"
+    ],
+    "correct_answer": "climate",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:10:14.755022+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-4-use-data-to-describe-climates-q1",
+    "subject": "science",
+    "year": "year-4",
+    "skill_name": "Use data to describe climates",
+    "skill_url": "https://au.ixl.com/science/year-4/use-data-to-describe-climates",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Cape Town is a city in South Africa. It is located in the Southern Hemisphere. It has a mediterranean climate. Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec 5 10 15 20 25 30 35 40 Jan 0 Temperature (°C) Average temperature in Cape Town, South Africa Jan Feb Mar Apr May Jun Jul Aug Sep Oct Nov Dec 0 10 20 30 40 50 60 70 80 90 100 Precipitation (mm) Average precipitation in Cape Town, South Africa Which statement best describes the climate of Cape Town? Hint: Summers in the Southern Hemisphere occur in December, January, and February. Winters in the Southern Hemisphere occur in June, July, and August.",
+    "options": [
+      "There is more precipitation in the summer months than in the winter months.",
+      "Winters have lower temperatures and more precipitation than summers."
+    ],
+    "correct_answer": "Winters have lower temperatures and more precipitation than summers.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:10:32.268070+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-4-choose-units-of-distance-q1",
+    "subject": "science",
+    "year": "year-4",
+    "skill_name": "Choose units of distance",
+    "skill_url": "https://au.ixl.com/science/year-4/choose-units-of-distance",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "How long is a sofa? Select the best estimate.",
+    "options": [
+      "3 centimetres",
+      "3 metres",
+      "3 kilometres"
+    ],
+    "correct_answer": "3 kilometres",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:10:55.984661+00:00",
+    "quiz_ready": true
+  }
+]

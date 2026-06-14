@@ -1,0 +1,222 @@
+[
+  {
+    "question_id": "ixl-science-year-5-identify-independent-and-dependent-variables-q1",
+    "subject": "science",
+    "year": "year-5",
+    "skill_name": "Identify independent and dependent variables",
+    "skill_url": "https://au.ixl.com/science/year-5/identify-independent-and-dependent-variables",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "The passage below describes an experiment. Read the passage and think about the variables that are described. a slingshot pulled back Whitney got a slingshot for her birthday, and she was learning to use it by launching a rubber ball in a local park. Whitney noticed that the ball travelled further when she pulled the sling back more. She wondered how much further the ball would travel for each additional 2.5 centimetres she pulled the sling back. Whitney launched the ball from the slingshot six times and measured how far the ball travelled each time. On the first two launches, she pulled the sling back 10 centimetres. On the next two launches, she pulled the sling back 12.5 centimetres. On the final two launches, she pulled the sling back 15 centimetres. Which of the following was an independent variable in this experiment? Hint: An independent variable is a variable whose effect you are investigating. A dependent variable is a variable that you measure.",
+    "options": [
+      "the distance the ball traveled",
+      "the distance the sling was pulled back"
+    ],
+    "correct_answer": "the distance the sling was pulled back",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:06:41.713548+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-5-identify-laboratory-tools-q1",
+    "subject": "science",
+    "year": "year-5",
+    "skill_name": "Identify laboratory tools",
+    "skill_url": "https://au.ixl.com/science/year-5/identify-laboratory-tools",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Select the Erlenmeyer flask. Submit",
+    "options": [],
+    "correct_answer": "",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:06:59.909722+00:00",
+    "quiz_ready": false
+  },
+  {
+    "question_id": "ixl-science-year-5-identify-magnets-that-attract-or-repel-q1",
+    "subject": "science",
+    "year": "year-5",
+    "skill_name": "Identify magnets that attract or repel",
+    "skill_url": "https://au.ixl.com/science/year-5/identify-magnets-that-attract-or-repel",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Two magnets are placed as shown. S N N S Will these magnets",
+    "options": [
+      "attract",
+      "repel"
+    ],
+    "correct_answer": "repel",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:07:22.021676+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-5-energy-transformation-q1",
+    "subject": "science",
+    "year": "year-5",
+    "skill_name": "Energy transformation",
+    "skill_url": "https://au.ixl.com/science/year-5/energy-transformation",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence. Shaking a maraca to make music converts movement energy to ﻿.",
+    "options": [
+      "sound energy",
+      "electrical energy",
+      "light energy"
+    ],
+    "correct_answer": "light energy",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:07:39.498933+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-5-identify-vertebrates-and-invertebrates-q1",
+    "subject": "science",
+    "year": "year-5",
+    "skill_name": "Identify vertebrates and invertebrates",
+    "skill_url": "https://au.ixl.com/science/year-5/identify-vertebrates-and-invertebrates",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Select the vertebrate. Hint: Mammals, birds, fish, reptiles, and amphibians are vertebrates.",
+    "options": [
+      "emerald tree boa",
+      "saturn butterfly",
+      "grasshopper",
+      "barrel jellyfish"
+    ],
+    "correct_answer": "barrel jellyfish",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:07:59.462078+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-5-classify-fruits-and-vegetables-as-plant-parts-q1",
+    "subject": "science",
+    "year": "year-5",
+    "skill_name": "Classify fruits and vegetables as plant parts",
+    "skill_url": "https://au.ixl.com/science/year-5/classify-fruits-and-vegetables-as-plant-parts",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "People use mint plants for food. Photosynthesis makes food for the plant. We usually eat the part of the plant that does most of the photosynthesis. Which part of the mint plant do we usually eat?",
+    "options": [
+      "the root",
+      "the flowers",
+      "the leaves"
+    ],
+    "correct_answer": "the leaves",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:08:17.211882+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-5-animal-adaptations-skins-and-body-coverings-q1",
+    "subject": "science",
+    "year": "year-5",
+    "skill_name": "Animal adaptations: skins and body coverings",
+    "skill_url": "https://au.ixl.com/science/year-5/animal-adaptations-skins-and-body-coverings",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "thorny devil Thorny devils are lizards that live in the deserts of Australia. The thorny devil is adapted to be camouflaged in a sandy desert. Which animal is also adapted to be camouflaged in a sandy desert?",
+    "options": [
+      "Namaqua chameleon",
+      "polar bear"
+    ],
+    "correct_answer": "polar bear",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:08:36.873350+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-5-identify-inherited-and-acquired-traits-q1",
+    "subject": "science",
+    "year": "year-5",
+    "skill_name": "Identify inherited and acquired traits",
+    "skill_url": "https://au.ixl.com/science/year-5/identify-inherited-and-acquired-traits",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Is the following trait",
+    "options": [
+      "inherited",
+      "acquired"
+    ],
+    "correct_answer": "acquired",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:08:54.342573+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-5-identify-earth-s-land-features-using-satellite-images-q1",
+    "subject": "science",
+    "year": "year-5",
+    "skill_name": "Identify Earth's land features using satellite images",
+    "skill_url": "https://au.ixl.com/science/year-5/identify-earths-land-features-using-satellite-images",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "An island is a piece of land that is fully surrounded by water. Select the island. Submit",
+    "options": [],
+    "correct_answer": "",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:09:13.962210+00:00",
+    "quiz_ready": false
+  },
+  {
+    "question_id": "ixl-science-year-5-changes-to-earth-s-surface-erosion-q1",
+    "subject": "science",
+    "year": "year-5",
+    "skill_name": "Changes to Earth's surface: erosion",
+    "skill_url": "https://au.ixl.com/science/year-5/changes-to-earths-surface-erosion",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Complete the paragraph. Earth's surface is made mostly of rock. Water, wind and ice can break down this rock to form ﻿.",
+    "options": [
+      "melted rock",
+      "loose pieces",
+      "bigger pieces"
+    ],
+    "correct_answer": "bigger pieces",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:09:31.425485+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-5-choose-units-of-distance-q1",
+    "subject": "science",
+    "year": "year-5",
+    "skill_name": "Choose units of distance",
+    "skill_url": "https://au.ixl.com/science/year-5/choose-units-of-distance",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "How long is a potato? Select the best estimate.",
+    "options": [
+      "19 centimetres",
+      "19 metres",
+      "19 kilometres"
+    ],
+    "correct_answer": "19 kilometres",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:09:53.278203+00:00",
+    "quiz_ready": true
+  }
+]

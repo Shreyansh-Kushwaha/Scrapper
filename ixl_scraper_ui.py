@@ -139,6 +139,8 @@ def login(page, username, password):
 
 # ── Skill discovery ────────────────────────────────────────────────────────────
 
+NAV_SLUGS = {"skills", "games", "awards", "videos", "worksheets", "problems"}
+
 def get_skills(page, subject, year):
     index_url = f"{BASE_URL}/{subject}/{year}"
     print(f"Loading skill index: {index_url}", flush=True)
@@ -153,10 +155,14 @@ def get_skills(page, subject, year):
         try:
             href = a.get_attribute("href") or ""
             name = clean(a.inner_text())
-            if path_fragment in href and href not in seen and name:
-                url = href if href.startswith("http") else f"{BASE_URL}{href}"
-                skills.append({"name": name, "url": url})
-                seen.add(href)
+            if path_fragment not in href or href in seen or not name:
+                continue
+            slug = href.rstrip("/").rsplit("/", 1)[-1]
+            if slug in NAV_SLUGS or re.match(r"^\d+\s+\w+$", name):
+                continue
+            url = href if href.startswith("http") else f"{BASE_URL}{href}"
+            skills.append({"name": name, "url": url})
+            seen.add(href)
         except Exception:
             pass
 

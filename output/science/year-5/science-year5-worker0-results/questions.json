@@ -1,0 +1,283 @@
+[
+  {
+    "question_id": "ixl-science-year-5-identify-control-and-experimental-groups-q1",
+    "subject": "science",
+    "year": "year-5",
+    "skill_name": "Identify control and experimental groups",
+    "skill_url": "https://au.ixl.com/science/year-5/identify-control-and-experimental-groups",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "The passage below describes an experiment. a tomato plant Riley worked in a restaurant that had a vegetable garden. Part of his job was to care for the tomato plants. He had heard that pruning, or trimming, tomato plants can help tomatoes grow. He wondered if pruning would affect how well his tomato plants grew. Riley chose 24 tomato plants that were similar in size. He pruned an equal number of branches from each of the first 12 plants. He left the other 12 plants unpruned. Then, each week, Riley weighed the tomatoes that he picked from each group of plants. In this experiment, which were part of an experimental group?",
+    "options": [
+      "the pruned tomato plants",
+      "the unpruned tomato plants"
+    ],
+    "correct_answer": "the unpruned tomato plants",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:06:47.057757+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-5-identify-questions-that-can-be-investigated-with-a-set-of-materials-q1",
+    "subject": "science",
+    "year": "year-5",
+    "skill_name": "Identify questions that can be investigated with a set of materials",
+    "skill_url": "https://au.ixl.com/science/year-5/identify-questions-that-can-be-investigated-with-a-set-of-materials",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Madison visits a museum about ancient Greece. She notices an exhibit with models of wooden catapults that were used to launch large rocks across battlefields. She wonders what factors affect how far a catapult can launch an object. So, she decides to design an experiment. She has the following supplies available: a wooden catapult with a 25-centimetre-long arm a wooden catapult with a 12.5-centimetre-long arm two identical rubber balls Using only these supplies, which question can Madison investigate with an experiment?",
+    "options": [
+      "Does a rubber ball travel further when launched from a metal catapult or from a wooden catapult?",
+      "Does a catapult with a longer arm launch a rubber ball further than a catapult with a shorter arm?",
+      "Does a heavier ball travel further than a lighter ball when launched from a catapult?"
+    ],
+    "correct_answer": "Does a heavier ball travel further than a lighter ball when launched from a catapult?",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:07:04.935585+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-5-identify-and-sort-solids-liquids-and-gases-q1",
+    "subject": "science",
+    "year": "year-5",
+    "skill_name": "Identify and sort solids, liquids and gases",
+    "skill_url": "https://au.ixl.com/science/year-5/identify-and-sort-solids-liquids-and-gases",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Is cake batter",
+    "options": [
+      "a solid",
+      "a liquid",
+      "a gas"
+    ],
+    "correct_answer": "a gas",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:07:22.550860+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-5-how-do-balanced-and-unbalanced-forces-affect-motion-q1",
+    "subject": "science",
+    "year": "year-5",
+    "skill_name": "How do balanced and unbalanced forces affect motion?",
+    "skill_url": "https://au.ixl.com/science/year-5/how-do-balanced-and-unbalanced-forces-affect-motion",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "The text below describes a pair of opposing forces. Opposing forces act on an object in opposite directions. Read the text. Then answer the question below. A group of boys plays a game of tug-of-war with a group of girls. Think about two of the forces that act on the rope: The boys pull away from the girls. The girls pull towards themselves. As the girls pull on the rope, what is the direction of the opposing force?",
+    "options": [
+      "toward the girls",
+      "away from the girls"
+    ],
+    "correct_answer": "away from the girls",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:07:42.430128+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-5-compare-magnitudes-of-magnetic-forces-q1",
+    "subject": "science",
+    "year": "year-5",
+    "skill_name": "Compare magnitudes of magnetic forces",
+    "skill_url": "https://au.ixl.com/science/year-5/compare-magnitudes-of-magnetic-forces",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "The images below show two pairs of magnets. The magnets in different pairs do not affect each other. All the magnets shown are made of the same material, but some of them are different sizes and shapes. Pair 1 N S N S 40.4 mm Pair 2 N S N S 40.4 mm Think about the magnetic force between the magnets in each pair. Which of the following statements is true?",
+    "options": [
+      "The magnitude of the magnetic force is greater in Pair 1.",
+      "The magnitude of the magnetic force is greater in Pair 2.",
+      "The magnitude of the magnetic force is the same in both pairs."
+    ],
+    "correct_answer": "The magnitude of the magnetic force is the same in both pairs.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:07:59.965596+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-5-conductors-and-insulators-q1",
+    "subject": "science",
+    "year": "year-5",
+    "skill_name": "Conductors and insulators",
+    "skill_url": "https://au.ixl.com/science/year-5/conductors-and-insulators",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Carolina is building a circuit to power a light bulb. Play the video to see how Carolina builds her circuit. How do the wires help electrical current flow in Carolina's circuit? Complete the sentence. The wires in the circuit contain ﻿, which allow electrical current to easily flow and power the light bulb.",
+    "options": [
+      "insulators",
+      "conductors"
+    ],
+    "correct_answer": "conductors",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:08:17.922500+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-5-identify-mammals-birds-fish-reptiles-and-amphibians-q1",
+    "subject": "science",
+    "year": "year-5",
+    "skill_name": "Identify mammals, birds, fish, reptiles and amphibians",
+    "skill_url": "https://au.ixl.com/science/year-5/identify-mammals-birds-fish-reptiles-and-amphibians",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Select the reptile.",
+    "options": [
+      "box turtle",
+      "goldfish",
+      "catfish",
+      "African elephant"
+    ],
+    "correct_answer": "African elephant",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:08:35.593790+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-5-use-evidence-to-classify-animals-q1",
+    "subject": "science",
+    "year": "year-5",
+    "skill_name": "Use evidence to classify animals",
+    "skill_url": "https://au.ixl.com/science/year-5/use-evidence-to-classify-animals",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Bony fish are a group of animals with similar traits. The following traits can be used to identify bony fish: They have fins, not limbs. They live underwater. They have a skeleton made of bone. They make eggs with no shells. Observe the animals and read the descriptions. Select the one animal that has all of the bony fish traits listed above.",
+    "options": [
+      "Common carp have a bony skeleton and lay eggs without shells. A single carp can lay over a million eggs per year! Carp live in freshwater and are eaten by people in many countries. Some colourful varieties are called koi.",
+      "Grey tree frogs hatch from eggs without shells. They live underwater when they are tadpoles. They move onto land when they become adults. The moist skin of adult grey tree frogs can be green or grey. The colour of their skin helps them hide on rocks or plants."
+    ],
+    "correct_answer": "Grey tree frogs hatch from eggs without shells. They live underwater when they are tadpoles. They move onto land when they become adults. The moist skin of adult grey tree frogs can be green or grey. The colour of their skin helps them hide on rocks or plants.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:08:53.308470+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-5-animal-adaptations-feet-and-limbs-q1",
+    "subject": "science",
+    "year": "year-5",
+    "skill_name": "Animal adaptations: feet and limbs",
+    "skill_url": "https://au.ixl.com/science/year-5/animal-adaptations-feet-and-limbs",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "harbour seal Harbour seals live along the coasts of the Atlantic and Pacific Oceans. They spend a lot of time hunting fish at sea. The harbour seal has four flippers for limbs. Its limbs are adapted for swimming. Which animal's limbs are also adapted for swimming?",
+    "options": [
+      "chital",
+      "bottlenose dolphin"
+    ],
+    "correct_answer": "bottlenose dolphin",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:09:13.194553+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-5-match-offspring-to-parents-using-inherited-traits-q1",
+    "subject": "science",
+    "year": "year-5",
+    "skill_name": "Match offspring to parents using inherited traits",
+    "skill_url": "https://au.ixl.com/science/year-5/match-offspring-to-parents-using-inherited-traits",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Look at the traits of this pair of Labrador retrievers. Which dog could be an offspring of this pair? Select the most likely offspring. Submit",
+    "options": [],
+    "correct_answer": "",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:09:30.941764+00:00",
+    "quiz_ready": false
+  },
+  {
+    "question_id": "ixl-science-year-5-identify-ecosystems-q1",
+    "subject": "science",
+    "year": "year-5",
+    "skill_name": "Identify ecosystems",
+    "skill_url": "https://au.ixl.com/science/year-5/identify-ecosystems",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Select the hot desert ecosystem.",
+    "options": [
+      "This ecosystem has: long, cold winters and short, cold summers mostly small plants soil that is frozen year-round",
+      "This ecosystem has: long, cold winters and short, cool summers many evergreen trees soil that is poor in nutrients",
+      "This ecosystem has: a small amount of rain dry, thin soil many different types of organisms"
+    ],
+    "correct_answer": "This ecosystem has: a small amount of rain dry, thin soil many different types of organisms",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:09:48.823836+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-5-identify-earth-s-land-features-using-photographs-q1",
+    "subject": "science",
+    "year": "year-5",
+    "skill_name": "Identify Earth's land features using photographs",
+    "skill_url": "https://au.ixl.com/science/year-5/identify-earths-land-features-using-photographs",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "An island is a piece of land that is fully surrounded by water. Select the island. Submit",
+    "options": [],
+    "correct_answer": "",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:10:06.541808+00:00",
+    "quiz_ready": false
+  },
+  {
+    "question_id": "ixl-science-year-5-changes-to-earth-s-surface-volcanic-eruptions-q1",
+    "subject": "science",
+    "year": "year-5",
+    "skill_name": "Changes to Earth's surface: volcanic eruptions",
+    "skill_url": "https://au.ixl.com/science/year-5/changes-to-earths-surface-volcanic-eruptions",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Complete the paragraph. A volcano is a ﻿. Volcanoes can erupt. During a volcanic eruption, melted rock ﻿ the ground.",
+    "options": [
+      "type of melted rock . . . flows into",
+      "fire below Earth's surface . . . turns solid below",
+      "hole in Earth's surface . . . comes out of"
+    ],
+    "correct_answer": "hole in Earth's surface . . . comes out of",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:10:23.990600+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-5-choose-units-of-volume-q1",
+    "subject": "science",
+    "year": "year-5",
+    "skill_name": "Choose units of volume",
+    "skill_url": "https://au.ixl.com/science/year-5/choose-units-of-volume",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "What is the volume of a soda bottle cap? Select the better estimate.",
+    "options": [
+      "11 millilitres",
+      "11 litres"
+    ],
+    "correct_answer": "11 litres",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:10:47.553827+00:00",
+    "quiz_ready": true
+  }
+]

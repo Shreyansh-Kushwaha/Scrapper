@@ -9,7 +9,7 @@ jobs:
 
   # ── YEAR 7 ────────────────────────────────────────────────────────────────
 
-  scrape-year7:
+  setup-year7:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -18,36 +18,73 @@ jobs:
           python-version: '3.11'
       - name: Install dependencies
         run: pip install -r requirements.txt && playwright install chromium && playwright install-deps chromium
+      - name: Discover skills
+        run: |
+          mkdir -p output/science/year-7
+          python3 -c "
+          import json, subprocess
+          result = subprocess.run(
+              ['python3','ixl_scraper_ui.py',
+               '--subject','science','--year','year-7',
+               '--username','${{ secrets.IXL_USERNAME }}',
+               '--password','${{ secrets.IXL_PASSWORD }}',
+               '--discover-only','--headless'],
+              capture_output=True, text=True
+          )
+          skills = json.loads([l[8:] for l in result.stdout.splitlines() if l.startswith('[SKILLS]')][0])
+          open('output/science/year-7/_batch_0.json','w').write(json.dumps(skills))
+          print(f'Found {len(skills)} skills.')
+          "
+      - uses: actions/upload-artifact@v4
+        with:
+          name: science-year7-batch
+          path: output/science/year-7/_batch_0.json
+
+  scrape-year7:
+    needs: setup-year7
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: pip install -r requirements.txt && playwright install chromium && playwright install-deps chromium
+      - uses: actions/download-artifact@v4
+        with:
+          name: science-year7-batch
+          path: output/science/year-7/
       - name: Restore checkpoint cache
         uses: actions/cache@v4
         with:
-          path: output/science/year-7
+          path: output/science/year-7/worker_0
           key: science-year7-checkpoint
           restore-keys: science-year7-checkpoint
       - name: Run scraper
         run: |
-          mkdir -p output/science/year-7
+          mkdir -p output/science/year-7/worker_0
           python3 ixl_scraper_ui.py \
             --subject science --year year-7 \
             --username "${{ secrets.IXL_USERNAME }}" \
             --password "${{ secrets.IXL_PASSWORD }}" \
-            --output-dir "output/science/year-7" \
+            --output-dir "output/science/year-7/worker_0" \
+            --skills-file "output/science/year-7/_batch_0.json" \
             --mcq-only --headless
       - name: Save checkpoint cache
         if: always()
         uses: actions/cache/save@v4
         with:
-          path: output/science/year-7
+          path: output/science/year-7/worker_0
           key: science-year7-checkpoint
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: science-year7-results
-          path: output/science/year-7/
+          path: output/science/year-7/worker_0/
 
   # ── YEAR 8 ────────────────────────────────────────────────────────────────
 
-  scrape-year8:
+  setup-year8:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -56,36 +93,73 @@ jobs:
           python-version: '3.11'
       - name: Install dependencies
         run: pip install -r requirements.txt && playwright install chromium && playwright install-deps chromium
+      - name: Discover skills
+        run: |
+          mkdir -p output/science/year-8
+          python3 -c "
+          import json, subprocess
+          result = subprocess.run(
+              ['python3','ixl_scraper_ui.py',
+               '--subject','science','--year','year-8',
+               '--username','${{ secrets.IXL_USERNAME }}',
+               '--password','${{ secrets.IXL_PASSWORD }}',
+               '--discover-only','--headless'],
+              capture_output=True, text=True
+          )
+          skills = json.loads([l[8:] for l in result.stdout.splitlines() if l.startswith('[SKILLS]')][0])
+          open('output/science/year-8/_batch_0.json','w').write(json.dumps(skills))
+          print(f'Found {len(skills)} skills.')
+          "
+      - uses: actions/upload-artifact@v4
+        with:
+          name: science-year8-batch
+          path: output/science/year-8/_batch_0.json
+
+  scrape-year8:
+    needs: setup-year8
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: pip install -r requirements.txt && playwright install chromium && playwright install-deps chromium
+      - uses: actions/download-artifact@v4
+        with:
+          name: science-year8-batch
+          path: output/science/year-8/
       - name: Restore checkpoint cache
         uses: actions/cache@v4
         with:
-          path: output/science/year-8
+          path: output/science/year-8/worker_0
           key: science-year8-checkpoint
           restore-keys: science-year8-checkpoint
       - name: Run scraper
         run: |
-          mkdir -p output/science/year-8
+          mkdir -p output/science/year-8/worker_0
           python3 ixl_scraper_ui.py \
             --subject science --year year-8 \
             --username "${{ secrets.IXL_USERNAME }}" \
             --password "${{ secrets.IXL_PASSWORD }}" \
-            --output-dir "output/science/year-8" \
+            --output-dir "output/science/year-8/worker_0" \
+            --skills-file "output/science/year-8/_batch_0.json" \
             --mcq-only --headless
       - name: Save checkpoint cache
         if: always()
         uses: actions/cache/save@v4
         with:
-          path: output/science/year-8
+          path: output/science/year-8/worker_0
           key: science-year8-checkpoint
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: science-year8-results
-          path: output/science/year-8/
+          path: output/science/year-8/worker_0/
 
   # ── YEAR 9 ────────────────────────────────────────────────────────────────
 
-  scrape-year9:
+  setup-year9:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -94,29 +168,66 @@ jobs:
           python-version: '3.11'
       - name: Install dependencies
         run: pip install -r requirements.txt && playwright install chromium && playwright install-deps chromium
+      - name: Discover skills
+        run: |
+          mkdir -p output/science/year-9
+          python3 -c "
+          import json, subprocess
+          result = subprocess.run(
+              ['python3','ixl_scraper_ui.py',
+               '--subject','science','--year','year-9',
+               '--username','${{ secrets.IXL_USERNAME }}',
+               '--password','${{ secrets.IXL_PASSWORD }}',
+               '--discover-only','--headless'],
+              capture_output=True, text=True
+          )
+          skills = json.loads([l[8:] for l in result.stdout.splitlines() if l.startswith('[SKILLS]')][0])
+          open('output/science/year-9/_batch_0.json','w').write(json.dumps(skills))
+          print(f'Found {len(skills)} skills.')
+          "
+      - uses: actions/upload-artifact@v4
+        with:
+          name: science-year9-batch
+          path: output/science/year-9/_batch_0.json
+
+  scrape-year9:
+    needs: setup-year9
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: pip install -r requirements.txt && playwright install chromium && playwright install-deps chromium
+      - uses: actions/download-artifact@v4
+        with:
+          name: science-year9-batch
+          path: output/science/year-9/
       - name: Restore checkpoint cache
         uses: actions/cache@v4
         with:
-          path: output/science/year-9
+          path: output/science/year-9/worker_0
           key: science-year9-checkpoint
           restore-keys: science-year9-checkpoint
       - name: Run scraper
         run: |
-          mkdir -p output/science/year-9
+          mkdir -p output/science/year-9/worker_0
           python3 ixl_scraper_ui.py \
             --subject science --year year-9 \
             --username "${{ secrets.IXL_USERNAME }}" \
             --password "${{ secrets.IXL_PASSWORD }}" \
-            --output-dir "output/science/year-9" \
+            --output-dir "output/science/year-9/worker_0" \
+            --skills-file "output/science/year-9/_batch_0.json" \
             --mcq-only --headless
       - name: Save checkpoint cache
         if: always()
         uses: actions/cache/save@v4
         with:
-          path: output/science/year-9
+          path: output/science/year-9/worker_0
           key: science-year9-checkpoint
       - uses: actions/upload-artifact@v4
         if: always()
         with:
           name: science-year9-results
-          path: output/science/year-9/
+          path: output/science/year-9/worker_0/

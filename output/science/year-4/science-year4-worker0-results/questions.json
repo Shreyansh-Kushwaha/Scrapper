@@ -1,0 +1,285 @@
+[
+  {
+    "question_id": "ixl-science-year-4-compare-properties-of-objects-q1",
+    "subject": "science",
+    "year": "year-4",
+    "skill_name": "Compare properties of objects",
+    "skill_url": "https://au.ixl.com/science/year-4/compare-properties-of-objects",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Which property do these three objects have in common? water slide marbles slide Select the best answer.",
+    "options": [
+      "soft",
+      "smooth",
+      "transparent"
+    ],
+    "correct_answer": "transparent",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:06:49.819406+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-4-predict-temperature-changes-q1",
+    "subject": "science",
+    "year": "year-4",
+    "skill_name": "Predict temperature changes",
+    "skill_url": "https://au.ixl.com/science/year-4/predict-temperature-changes",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Two identical blocks are heated to different temperatures. The blocks are placed so that they touch each other. Heat can flow from one block to another but cannot escape from the blocks. 220°F Block 1 180°F Block 2 Later, the temperature of each block is measured again. Which pair of temperatures is possible?",
+    "options": [
+      "40°F Block 1 0°F Block 2",
+      "215°F Block 1 185°F Block 2"
+    ],
+    "correct_answer": "215°F Block 1 185°F Block 2",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:07:09.896060+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-4-identify-magnets-that-attract-or-repel-q1",
+    "subject": "science",
+    "year": "year-4",
+    "skill_name": "Identify magnets that attract or repel",
+    "skill_url": "https://au.ixl.com/science/year-4/identify-magnets-that-attract-or-repel",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Two magnets are placed as shown. N S N S Will these magnets",
+    "options": [
+      "attract",
+      "repel"
+    ],
+    "correct_answer": "repel",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:07:27.728077+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-4-identify-mammals-birds-fish-reptiles-and-amphibians-q1",
+    "subject": "science",
+    "year": "year-4",
+    "skill_name": "Identify mammals, birds, fish, reptiles and amphibians",
+    "skill_url": "https://au.ixl.com/science/year-4/identify-mammals-birds-fish-reptiles-and-amphibians",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Birds have feathers, two wings, and a beak. Birds are warm-blooded. Warm-blooded animals can control their body temperature. An ostrich is an example of a bird. Select the bird below.",
+    "options": [
+      "western toad",
+      "bull shark",
+      "fire salamander",
+      "Steller's sea eagle"
+    ],
+    "correct_answer": "Steller's sea eagle",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:07:47.627250+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-4-use-evidence-to-classify-animals-q1",
+    "subject": "science",
+    "year": "year-4",
+    "skill_name": "Use evidence to classify animals",
+    "skill_url": "https://au.ixl.com/science/year-4/use-evidence-to-classify-animals",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Crustaceans are a group of animals with similar traits. The following traits can be used to identify crustaceans: They have two pairs of antennae. They have an exoskeleton. Observe the animals and read the descriptions. Select the one animal that has all of the crustacean traits listed above.",
+    "options": [
+      "White-spotted octopuses have tentacles, which are also called arms. White-spotted octopuses can use their tentacles to reach between corals and grab fish. These octopuses have a soft red body with white spots.",
+      "Caribbean spiny lobsters have two pairs of antennae. Their antennae can be longer than the rest of their body! Caribbean spiny lobsters also have an exoskeleton."
+    ],
+    "correct_answer": "Caribbean spiny lobsters have two pairs of antennae. Their antennae can be longer than the rest of their body! Caribbean spiny lobsters also have an exoskeleton.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:08:05.226521+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-4-describe-and-construct-flowering-plant-life-cycles-q1",
+    "subject": "science",
+    "year": "year-4",
+    "skill_name": "Describe and construct flowering plant life cycles",
+    "skill_url": "https://au.ixl.com/science/year-4/describe-and-construct-flowering-plant-life-cycles",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Complete the sentence. A seedling is ﻿.",
+    "options": [
+      "a plant that makes seeds",
+      "a young plant",
+      "a part of a seed"
+    ],
+    "correct_answer": "a part of a seed",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:08:24.806729+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-4-match-offspring-to-parents-using-inherited-traits-q1",
+    "subject": "science",
+    "year": "year-4",
+    "skill_name": "Match offspring to parents using inherited traits",
+    "skill_url": "https://au.ixl.com/science/year-4/match-offspring-to-parents-using-inherited-traits",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Look at the traits of this pair of raccoons. Which animal could be an offspring of this pair? Select the more likely offspring. Hint: Both parents have black and tan rings on their tails. Submit",
+    "options": [],
+    "correct_answer": "",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:08:42.836022+00:00",
+    "quiz_ready": false
+  },
+  {
+    "question_id": "ixl-science-year-4-identify-roles-in-food-chains-q1",
+    "subject": "science",
+    "year": "year-4",
+    "skill_name": "Identify roles in food chains",
+    "skill_url": "https://au.ixl.com/science/year-4/identify-roles-in-food-chains",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "This diagram shows a food chain from Baffin Island, a tundra ecosystem in Canada. Arctic bell-heather Arctic hare Arctic fox In this food chain, the Arctic hare is a consumer. Why?",
+    "options": [
+      "It makes its own food.",
+      "It eats another organism."
+    ],
+    "correct_answer": "It eats another organism.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:09:00.372304+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-4-changes-to-earth-s-surface-erosion-q1",
+    "subject": "science",
+    "year": "year-4",
+    "skill_name": "Changes to Earth's surface: erosion",
+    "skill_url": "https://au.ixl.com/science/year-4/changes-to-earths-surface-erosion",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Complete the paragraph. Earth's surface is made mostly of rock. Water, wind and ice can break down this rock to form ﻿.",
+    "options": [
+      "bigger pieces",
+      "loose pieces",
+      "melted rock"
+    ],
+    "correct_answer": "melted rock",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:09:17.805414+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-4-how-do-sedimentary-rocks-form-q1",
+    "subject": "science",
+    "year": "year-4",
+    "skill_name": "How do sedimentary rocks form?",
+    "skill_url": "https://au.ixl.com/science/year-4/how-do-sedimentary-rocks-form",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "This picture shows a desert in Asia. A desert is an environment that does not get much rain or snow. Which rock is more likely to form from sediment deposited in a desert?",
+    "options": [
+      "Sandstone forms from layers of sand.",
+      "Shale forms from layers of mud."
+    ],
+    "correct_answer": "Shale forms from layers of mud.",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:09:35.305803+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-4-interpret-evidence-from-fossils-in-rock-layers-q1",
+    "subject": "science",
+    "year": "year-4",
+    "skill_name": "Interpret evidence from fossils in rock layers",
+    "skill_url": "https://au.ixl.com/science/year-4/interpret-evidence-from-fossils-in-rock-layers",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "The following diagram shows an example of a rock sequence. Use the rock sequence to answer the question below. The sandstone layer was formed from sediment deposited on a beach. This layer contains fossils of dinosaur footprints. The limestone layer was formed from sediment deposited on the ocean floor. No dinosaur footprint fossils were found in this layer. Which rock layer is older?",
+    "options": [
+      "the limestone layer",
+      "the sandstone layer"
+    ],
+    "correct_answer": "the sandstone layer",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:09:52.819609+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-4-identify-phases-of-the-moon-q1",
+    "subject": "science",
+    "year": "year-4",
+    "skill_name": "Identify phases of the Moon",
+    "skill_url": "https://au.ixl.com/science/year-4/identify-phases-of-the-moon",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "The model below shows the Moon at one position in its orbit around Earth. The white half of the Moon shows the part that is lit up by the Sun. Select the phase of the Moon shown in the model.",
+    "options": [
+      "first quarter",
+      "new"
+    ],
+    "correct_answer": "new",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:10:18.775051+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-4-evaluate-multiple-design-solutions-to-prevent-erosion-q1",
+    "subject": "science",
+    "year": "year-4",
+    "skill_name": "Evaluate multiple design solutions to prevent erosion",
+    "skill_url": "https://au.ixl.com/science/year-4/evaluate-multiple-design-solutions-to-prevent-erosion",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "Toby has a pond in his backyard. One day, Toby and his mum watch the fish in the pond. The water in the pond is clear. Later, it rains. The next day, there is a lot of sand, dirt and silt in the water. Silt is like sand, but it's made of even smaller pieces. Toby wants the water in the pond to be cleaner so he can see the fish again. What is the problem that Toby wants to solve? Complete the sentence. The water in the pond is ﻿. Toby wants it to be cleaner so he can see the fish again.",
+    "options": [
+      "frozen",
+      "dirty",
+      "clear"
+    ],
+    "correct_answer": "clear",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:10:36.270111+00:00",
+    "quiz_ready": true
+  },
+  {
+    "question_id": "ixl-science-year-4-choose-units-of-mass-q1",
+    "subject": "science",
+    "year": "year-4",
+    "skill_name": "Choose units of mass",
+    "skill_url": "https://au.ixl.com/science/year-4/choose-units-of-mass",
+    "question_index": 1,
+    "format": "multiple-choice",
+    "question_text": "What is the mass of a full bag of groceries? Select the better estimate.",
+    "options": [
+      "2 grams",
+      "2 kilograms"
+    ],
+    "correct_answer": "2 kilograms",
+    "blank_count": 0,
+    "has_image": false,
+    "image_paths": [],
+    "scraped_at": "2026-06-14T04:10:53.699849+00:00",
+    "quiz_ready": true
+  }
+]
